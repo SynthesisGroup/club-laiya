@@ -86,4 +86,37 @@ document.addEventListener('DOMContentLoaded', function() {
             },
         },
     });
+
+    // Experciences Swiper
+    let swiperExperiences = new Swiper('.swiper-experiences', {
+        slidesPerView: 1,
+        spaceBetween: 3,
+        autoplay: {
+            delay: 5500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination-experiences',
+            clickable: true,
+            dynamicBullets: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next-experiences",
+            prevEl: ".swiper-button-prev-experiences",
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 50,
+            },
+        },
+    });
 });
