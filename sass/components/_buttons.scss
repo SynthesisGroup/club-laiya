@@ -1,0 +1,22 @@
+// Button Primary
+.btn {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    padding: 12px 32px 12px 32px;
+    border-radius: 1px;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    &:hover {
+        background-color: var(--mr-color-primary);
+    }
+}
+
+.btn-primary {
+    background-color: var(--mr-color-secondary);
+    border: none;
+}
