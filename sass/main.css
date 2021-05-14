@@ -133,6 +133,10 @@ h6 {
   width: 20px;
 }
 
+.justify-items-center {
+  justify-items: center;
+}
+
 .object-fit-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -618,40 +622,48 @@ footer .footer-bottom .footer-bottom-text #year {
   background-color: #f4f3ef;
 }
 
-.card {
+.card, .card-plain {
   border: none;
   padding: 30px;
 }
 
-.card .card-body .card-title {
+.card .experience-img-circle, .card-plain .experience-img-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card .card-body .card-title, .card-plain .card-body .card-title {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
 
-.card .card-body .card-list {
+.card .card-body .card-list, .card-plain .card-body .card-list {
   list-style: circle;
   padding: 0 18px;
 }
 
-.card .card-body .card-news-title {
+.card .card-body .card-news-title, .card-plain .card-body .card-news-title {
   font-size: 18px;
   margin-bottom: 20px;
 }
 
-.card .card-body .card-news-text {
+.card .card-body .card-news-text, .card-plain .card-body .card-news-text {
   font-size: 14px;
 }
 
-.card .card-body .card-experience-title {
+.card .card-body .card-experience-title, .card-plain .card-body .card-experience-title {
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-.card .card-body .card-experience-text {
+.card .card-body .card-experience-text, .card-plain .card-body .card-experience-text {
   font-size: 15px;
 }
 
-.card .card-body .card-link {
+.card .card-body .card-link, .card-plain .card-body .card-link {
   font-size: 13px;
   font-family: var(--mr-font-karla-bold);
   color: var(--mr-color-secondary);
@@ -659,7 +671,7 @@ footer .footer-bottom .footer-bottom-text #year {
   text-transform: uppercase;
 }
 
-.card .card-news-body {
+.card .card-news-body, .card-plain .card-news-body {
   padding: 25px 10px;
 }
 
