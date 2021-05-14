@@ -91,6 +91,13 @@
             }
         }
     }
+
+    // Footer
+    footer {
+        .footer-text {
+            width: 100%;
+        }
+    }
 }
 
 // iPad
@@ -157,6 +164,13 @@
             .card-selector-wrapper {
                 width: 100%;
             }
+        }
+    }
+
+    // Footer
+    footer {
+        .footer-text {
+            width: 100%;
         }
     }
 }
@@ -349,6 +363,9 @@
 
     // Main Footer
     footer {
+        .footer-text {
+            width: 100%;
+        }
         .footer-bottom {
             display: grid;
             justify-items: center;

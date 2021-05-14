@@ -471,8 +471,9 @@ footer .footer-logo {
 }
 
 footer .footer-text {
-  width: 75%;
+  width: 80%;
   color: var(--mr-color-white);
+  margin-top: 30px;
 }
 
 footer .footer-socials {
@@ -1043,6 +1044,9 @@ footer .footer-bottom .footer-bottom-text #year {
   .home-banner-section .container .card-selector-wrapper {
     width: 100%;
   }
+  footer .footer-text {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1092,6 +1096,9 @@ footer .footer-bottom .footer-bottom-text #year {
     width: 100%;
   }
   .home-banner-section .container .card-selector-wrapper {
+    width: 100%;
+  }
+  footer .footer-text {
     width: 100%;
   }
 }
@@ -1215,6 +1222,9 @@ footer .footer-bottom .footer-bottom-text #year {
   }
   .accordion-contact-us {
     margin-left: 0;
+  }
+  footer .footer-text {
+    width: 100%;
   }
   footer .footer-bottom {
     display: -ms-grid;
