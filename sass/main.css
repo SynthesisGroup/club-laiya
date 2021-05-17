@@ -196,7 +196,7 @@ header {
 
 .navbar .navbar-menu .navbar-items a {
   font-family: var(--mr-font-ostd);
-  font-size: 14px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
