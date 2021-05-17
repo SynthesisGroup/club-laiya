@@ -196,8 +196,9 @@ header {
 
 .navbar .navbar-menu .navbar-items a {
   font-family: var(--mr-font-ostd);
-  font-size: 13px;
+  font-size: 14px;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .navbar .navbar-menu .navbar-items a:hover {
@@ -734,7 +735,7 @@ footer .footer-bottom .footer-bottom-text #year {
 
 .home-banner-section .container {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 0;
   right: 0;
   -webkit-transform: translateY(-50%);
@@ -750,14 +751,14 @@ footer .footer-bottom .footer-bottom-text #year {
 }
 
 .home-banner-section .container .banner-heading .banner-upper-text {
-  font-size: 18px;
+  font-size: 24px;
   letter-spacing: 0.6em;
   text-transform: uppercase;
   color: var(--mr-color-white);
 }
 
 .home-banner-section .container .banner-heading .banner-title {
-  font-size: 65px;
+  font-size: 70px;
   text-transform: uppercase;
   color: var(--mr-color-white);
   margin-top: 20px;
@@ -1045,7 +1046,7 @@ footer .footer-bottom .footer-bottom-text #year {
     font-size: 13px;
   }
   .home-banner-section .container .banner-heading {
-    width: 70%;
+    width: 100%;
   }
   .home-banner-section .container .card-selector-wrapper {
     width: 70%;
