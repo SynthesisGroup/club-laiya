@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <!-- Main Style -->
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/overwrites.css">
 </head>
 <body class="preload">
     <!-- Start: Header -->
@@ -45,7 +46,7 @@
                         <a href="attractions.html">Attractions</a>
                     </li>
                     <li class="navbar-items">
-                        <a href="priviledge-card.html">Priviledge Card</a>
+                        <a href="#">Priviledge Card</a>
                     </li>
                     <li class="navbar-items">
                         <a href="news.html">News</a>
@@ -91,11 +92,11 @@
             </div>
         </section>
 
-        <section>
+        <section class="bg-light">
             <div class="container">
                 <div class="row row-cols-1 g-5">
                     <div class="col">
-                        <div class="row row-cols-xl-2 row-cols-md-1 row-cols-1 g-5 align-items-center flex-reverse">
+                        <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 row-cols-1 g-5 align-items-center flex-reverse">
                             <div class="col" data-aos="fade-up">
                                 <div class="card">
                                     <div class="card-body">
@@ -113,6 +114,59 @@
                 </div>
             </div>
         </section>
+
+        <!-- .section-map -->
+		<section class="section-map for-screen" style="background-image: url('img/map/img-ocean.jpg'); ">
+			<div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-xl-6" data-aos="fade-up">
+                        <div class="section-headers">
+                            <div class="section-upper-text">Club Laiya</div>
+                            <h4 class="section-title">Project Locations</h4>
+                        </div>
+                    </div>
+                </div>
+				<div class="row justify-content-center align-items-center">
+
+					<div class="col-md-10">
+						<div class="position-relative">
+							<div class="icon-map-marker map-project-1">
+								<img src="img/map/logo-casobe.png" alt="CaSoBe" class="img-fluid" />
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/></svg>
+							</div>
+							<div class="icon-map-marker map-project-2">
+								<img src="img/map/logo-club-laiya.png" alt="CaSoBe" class="img-fluid" />
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/></svg>
+							</div>
+							<img src="img/map/philippine-map.png" class="img-fluid philippine-map" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /.section-map -->
+		
+		<!-- .section-map -->
+		<section class="section-map for-mobile" style="background-image: url('./img/map/img-ocean.jpg'); ">
+			<div class="container">
+				<div class="row justify-content-end align-items-center">				
+					<div class="col-md-12">
+						<div class="position-relative">
+							<div class="icon-map-marker map-project-1">
+								<img src="img/map/logo-casobe.png" alt="CaSoBe" class="img-fluid" />
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/></svg>
+							</div>
+							<div class="icon-map-marker map-project-2">
+								<img src="img/map/logo-club-laiya.png" alt="CaSoBe" class="img-fluid" />
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/></svg>
+							</div>
+							<img src="img/map/philippine-map.png" class="img-fluid philippine-map" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /.section-map -->
 
         <section class="cta-section" style="background-image: url('./img/cta/cta-home-section.jpg');">
             <div class="container">
@@ -143,50 +197,43 @@
                     </div>
                 </div>
 
-                <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1 justify-content-center g-5 mt-4">
+                <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 justify-content-center g-5 mt-4">
                     <div class="col" data-aos="zoom-in" data-aos-duration="500">
                         <div class="card-counter">
-                            <h4 class="card-counter-header">40</h4>
+                            <h4 class="card-counter-header">44</h4>
                             <h5 class="card-counter-title">Rooms / Accomodations</h5>
-                            <p>Millennial Resorts has built its reputation on creating-one-of-a-kind properties and experiences that capture the soul of each destination.</p>
-                        </div>
-                    </div>
-                    <div class="col" data-aos="zoom-in" data-aos-duration="1000">
-                        <div class="card-counter">
-                            <h4 class="card-counter-header">2</h4>
-                            <h5 class="card-counter-title">Water Parks</h5>
-                            <p>Millennial Resorts has built its reputation on creating-one-of-a-kind properties and experiences that capture the soul of each destination.</p>
+                            <p>Millennial resorts has built its reputation on creating-one-of-a-kind resort hotels that emphasizes the beauty of each destination.</p>
                         </div>
                     </div>
                     <div class="col" data-aos="zoom-in" data-aos-duration="1500">
                         <div class="card-counter">
-                            <h4 class="card-counter-header">6</h4>
-                            <h5 class="card-counter-title">Pools / SPA</h5>
-                            <p>Millennial Resorts has built its reputation on creating-one-of-a-kind properties and experiences that capture the soul of each destination.</p>
+                            <h4 class="card-counter-header">1</h4>
+                            <h5 class="card-counter-title">Laiya Beach Club</h5>
+                            <p>Celebrate life’s milestones at Playa Laiya’s Beach Clubhouse. Take the time off to spend a quiet afternoon at the Beach Park or walk along the beach and enjoy the park’s amenities with that special someone.</p>
                         </div>
                     </div>
                     <div class="col" data-aos="zoom-in" data-aos-duration="2000">
                         <div class="card-counter">
-                            <h4 class="card-counter-header">2</h4>
+                            <h4 class="card-counter-header">1</h4>
                             <h5 class="card-counter-title">Events Venue</h5>
-                            <p>Millennial Resorts has built its reputation on creating-one-of-a-kind properties and experiences that capture the soul of each destination.</p>
+                            <p>Simple or grandiose moments in life are worth celebrating at The Isle, a premium events place completely accessible to all guests.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bg-light">
+        <section class="cta-section" style="background-image: url('./img/cta/cta-home-section.jpg');">
             <div class="container">
                 <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-1 justify-content-between align-items-center g-xl-5 g-lg-5 g-1">
-                    <div class="col">
-                        <img src="img/projects/laiya-beach-club.jpg" class="img-responsive w-100" alt="">
+                    <div class="col" data-aos="fade-up" data-aos-duration="500">
+                        <img src="img/projects/laiya-beach-club.jpg" class="img-responsive w-100 pr" alt="">
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Beachtowns</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores recusandae vitae cumque adipisci deserunt, animi autem laboriosam alias ducimus porro nemo voluptas, in pariatur, suscipit deleniti libero ratione consequatur possimus.</p>
+                                <p class="card-text">Landco Beachtowns in Laiya, Batangas spans 151 hectares with 127 hectares allotted for Playa Laiya, Landco’s prime residential subdivision, while another 24 hectares will be allotted for commercial launch under Club Laiya, Landco’s first ever Leisure Tourism Estate.</p>
                                 <a href="#" class="btn btn-primary mt-2">Explore</a>
                             </div>
                         </div>
@@ -209,11 +256,11 @@
                 <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 mt-4 g-5">
                     <div class="col" data-aos="fade-up" data-aos-duration="500">
                         <div class="card p-0">
-                            <img src="img/gallery/gallery-img-1.png" class="card-img-top w-100" alt="">
+                            <img src="img/projects/laiya-beach-club.jpg" class="card-img-top w-100 object-fit-cover" height="350" alt="">
                             <div class="card-body">
                                 <div class="text-center mt-3">
-                                    <h4 class="card-experience-title">Water Parks</h4>
-                                    <p class="card-experience-text">Club Laiya is the epitome of leisure living, a true supra resort community driven by a powerful vision to create a distinct resort living destination.</p>
+                                    <h4 class="card-experience-title">Laiya Beach Club</h4>
+                                    <p class="card-experience-text">Wake up to the calming sound of the ocean waves and breathe in that fresh sea breeze. Indulge in an early morning swim or spend time with family and friends on the pristine sands of Laiya beaches.</p>
                                     <a href="" class="card-link">Explore</a>
                                 </div>
                             </div>
@@ -221,11 +268,12 @@
                     </div>
                     <div class="col" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card p-0">
-                            <img src="img/gallery/gallery-img-2.png" class="card-img-top w-100" alt="">
+                            <img src="img/projects/cocoons-resort-hotel.jpg" class="card-img-top w-100 object-fit-cover" height="350" alt="">
                             <div class="card-body">
                                 <div class="text-center mt-3">
-                                    <h4 class="card-experience-title">Hotels</h4>
-                                    <p class="card-experience-text">Club Laiya is the epitome of leisure living, a true supra resort community driven by a powerful vision to create a distinct resort living destination.</p>
+                                    <h4 class="card-experience-title">Cocoons (Resort Hotel)</h4>
+                                    <p class="card-experience-text">A unique and unconventional resort hotel experience.
+                                        Live your life with the most unconventional yet, beautiful experiences inside and outside of the Cocoons.</p>
                                     <a href="" class="card-link">Explore</a>
                                 </div>
                             </div>
@@ -233,11 +281,12 @@
                     </div>
                     <div class="col" data-aos="fade-up" data-aos-duration="1500">
                         <div class="card p-0">
-                            <img src="img/gallery/gallery-img-3.png" class="card-img-top w-100" alt="">
+                            <img src="img/projects/luxury-excitement.png" class="card-img-top w-100 object-fit-cover" height="350" alt="">
                             <div class="card-body">
                                 <div class="text-center mt-3">
-                                    <h4 class="card-experience-title">Packages & Tours</h4>
-                                    <p class="card-experience-text">Club Laiya is the epitome of leisure living, a true supra resort community driven by a powerful vision to create a distinct resort living destination.</p>
+                                    <h4 class="card-experience-title">A life of Luxury & Excitement</h4>
+                                    <p class="card-experience-text">At Club Laiya, yours is the edge to live your life to the fullest. Truly, it’s a playground of the distinguished few and a frontier commanded by you 
+                                        </p>
                                     <a href="" class="card-link">Explore</a>
                                 </div>
                             </div>
@@ -322,6 +371,12 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row row-cols-1 justify-cotent-center mt-4 text-center">
+                    <div class="col">
+                        <a href="news.html" class="btn btn-primary">View all News</a>
+                    </div>
+                </div>
             </div>
         </section>
         
@@ -403,7 +458,7 @@
         <div class="container">
             <div class="row g-4">
                 <div class="col-xl-4 col-lg-4 col-md-8">
-                    <img src="img/millennial-resorts-logo-white.png" class="img-responsive" alt="">
+                    <img src="img/club-laiya-logo-white.png" class="img-responsive footer-logo" alt="">
                     <p class="footer-text">At Club Laiya, yours is the edge to live your life to the fullest.​</p>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6">
@@ -421,7 +476,7 @@
                                     <a href="attractions.html">Attractions</a>
                                 </li>
                                 <li class="footer-items">
-                                    <a href="priviledge-card.html">Priviledge Card</a>
+                                    <a href="#">Priviledge Card</a>
                                 </li>
                                 <li class="footer-items">
                                     <a href="contact-us.html">Contact Us</a>
@@ -457,15 +512,15 @@
                                 </li>
                                 <li class="footer-contacts">
                                     <ion-icon name="phone-portrait-outline"></ion-icon>
-                                    <a href="tel:+639985876225">+639985876225</a>
+                                    <a href="tel:+639188365000">(+63 918) 836-5000</a>
                                 </li>
                                 <li class="footer-contacts">
                                     <ion-icon name="call-outline"></ion-icon> 
-                                    <a href="tel:+63288365017">(+632) 8836-5017</a>
+                                    <a href="tel:+63288365000">(+63 2) 8836-5000</a>
                                 </li>
                                 <li class="footer-contacts">
                                     <ion-icon name="mail-outline"></ion-icon> 
-                                    <a href="mailto:info@millennial-resorts.com">info@millennial-resorts.com</a>
+                                    <a href="mailto:clublaiya@landco.ph">clublaiya@landco.ph</a>
                                 </li>
                             </ul>
                         </div>
