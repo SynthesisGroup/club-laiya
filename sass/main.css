@@ -770,10 +770,10 @@ footer .footer-bottom .footer-bottom-text #year {
 }
 
 .home-banner-section .container .banner-heading .banner-bottom-text {
-  font-size: 16px;
-  letter-spacing: 0.4em;
-  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.01em;
   color: var(--mr-color-white);
+  margin-top: 30px;
 }
 
 .home-banner-section .container .card-selector-wrapper {
@@ -1038,6 +1038,9 @@ footer .footer-bottom .footer-bottom-text #year {
 }
 
 @media only screen and (max-width: 1400px) {
+  .home-banner-section .container {
+    top: 50%;
+  }
   .home-banner-section .container .banner-heading {
     width: 65%;
   }
@@ -1049,6 +1052,9 @@ footer .footer-bottom .footer-bottom-text #year {
   }
   header .navbar .navbar-menu .navbar-items a {
     font-size: 13px;
+  }
+  .home-banner-section .container {
+    top: 50%;
   }
   .home-banner-section .container .banner-heading {
     width: 100%;
@@ -1134,6 +1140,7 @@ footer .footer-bottom .footer-bottom-text #year {
   }
   .home-banner-section .container {
     width: 100%;
+    top: 50%;
   }
   .home-banner-section .container .banner-heading {
     width: 100%;
@@ -1190,7 +1197,7 @@ footer .footer-bottom .footer-bottom-text #year {
         flex-wrap: wrap-reverse;
   }
   .home-banner-section .container {
-    top: 45%;
+    top: 50%;
     width: 100%;
   }
   .home-banner-section .container .banner-heading {
