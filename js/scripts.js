@@ -119,4 +119,14 @@ document.addEventListener('DOMContentLoaded', function() {
             },
         },
     });
+
+    // Beachside Properties Swiper
+    let swiperBeachsideProperties = new Swiper('.swiper-beachside-properties', {
+        slidesPerView: 1,
+        spaceBetween: 1,
+        navigation: {
+            nextEl: ".swiper-button-next-beachside-properties",
+            prevEl: ".swiper-button-prev-beachside-properties",
+        },
+    });
 });

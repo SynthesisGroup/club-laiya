@@ -16,7 +16,7 @@
     <!-- Fancy Box -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <!-- Main Style -->
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="sass/main.css">
 </head>
 <body class="preload">
     <!-- Start: Header -->
@@ -96,61 +96,110 @@
                     </div>
                 </div>
 
-                <div class="swiper-container swiper-experiences mt-5">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-                            <div class="card-plain d-grid justify-items-center p-0">
-                                <img src="img/experiences/aquaria-water-park.jpg" class="card-img-to experience-img-circle" alt="">
-                                <div class="card-body">
-                                    <div class="text-center mt-3">
-                                        <h4 class="card-experience-title">Praia</h4>
-                                        <p class="card-experience-text">A new leisure and tourism hub is rising in the prosperous enclave of Batangas, an idea whose time has come.  This highly anticipated 24-hectare masterfully planned Leisure Tourism Estate is the leading residential – commercial beachside development in Laiya, Batangas.</p>
-                                    </div>
+                <div class="row row-cols-xl-2 row-cols-lg-2 g-5 mt-5 mb-5 justify-content-center align-items-center">
+                    <div class="col">
+                        <div class="swiper-container swiper-beachside-properties">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/experiences/aquaria-water-park.jpg" class="img-responsive w-100 object-fit-cover" height="400" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/map/map-approximate-distance.jpg" class="img-responsive w-100 object-fit-cover" height="400" alt="">
                                 </div>
                             </div>
+                            <div class="swiper-button-next swiper-button-next-beachside-properties"></div>
+                            <div class="swiper-button-prev swiper-button-prev-beachside-properties"></div>
                         </div>
-
-                        <div class="swiper-slide">
-                            <div class="card-plain d-grid justify-items-center p-0">
-                                <img src="img/properties/img-retail-row.png" class="card-img-top experience-img-circle" alt="">
-                                <div class="card-body">
-                                    <div class="text-center mt-3">
-                                        <h4 class="card-experience-title">Retail Row</h4>
-                                        <p class="card-experience-text">The retail row is a stretch of retail landscape ideal for tourists to avail their needs. It is every entrepreneur’s dream site to grow their local business as it will never fall short of tourist traffic.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="card-plain d-grid justify-items-center p-0">
-                                <img src="img/properties/plaza-laiya.jpg" class="card-img-top experience-img-circle" alt="">
-                                <div class="card-body">
-                                    <div class="text-center mt-3">
-                                        <h4 class="card-experience-title">Plaza Laiya</h4>
-                                        <p class="card-experience-text">There is nothing like unwinding in a quiet resort garden where you can see different types of flora in full bloom. Club Laiya’s resort garden deepens your connection with nature and your love for serene and scenic places.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="swiper-slide">
-                            <div class="card-plain d-grid justify-items-center p-0">
-                                <img src="img/properties/kava-aiya.jpg" class="card-img-top experience-img-circle" alt="">
-                                <div class="card-body">
-                                    <div class="text-center mt-3">
-                                        <h4 class="card-experience-title">Kava & Aiya</h4>
-                                        <p class="card-experience-text">The Kava and Aiya Boulevard is the center of Club Laiya’s residential - commercial use properties. It is where you can build a highly profitable business such as cafes, retail stores, fashion lines, and many miscellaneous establishments.</p>
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-experience-title">Praia</h4>
+                                <p class="card-experience-text">A new leisure and tourism hub is rising in the prosperous enclave of Batangas, an idea whose time has come.  This highly anticipated 24-hectare masterfully planned Leisure Tourism Estate is the leading residential – commercial beachside development in Laiya, Batangas.</p>
+                                <a href="contact-us.html" class="btn btn-primary mt-3">Contact Us</a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-button-next swiper-button-next-experiences"></div>
-                    <div class="swiper-button-prev swiper-button-prev-experiences"></div>
-                    <div class="swiper-pagination swiper-pagination-experiences"></div>
                 </div>
+
+                <div class="row row-cols-xl-2 row-cols-lg-2 g-5 mb-5 align-items-center flex-reverse">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-experience-title">Retail Row</h4>
+                                <p class="card-experience-text">The retail row is a stretch of retail landscape ideal for tourists to avail their needs. It is every entrepreneur’s dream site to grow their local business as it will never fall short of tourist traffic.</p>
+                                <a href="contact-us.html" class="btn btn-primary mt-3">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="swiper-container swiper-beachside-properties">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/properties/img-retail-row.png" class="img-responsive w-100 object-fit-cover" height="400" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/map/map-approximate-distance.jpg" class="img-responsive w-100 object-fit-cover" height="400" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-button-next swiper-button-next-beachside-properties"></div>
+                            <div class="swiper-button-prev swiper-button-prev-beachside-properties"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row row-cols-xl-2 row-cols-lg-2 g-5 mt-5 mb-5 align-items-center">
+                    <div class="col">
+                        <div class="swiper-container swiper-beachside-properties">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/properties/plaza-laiya.jpg" class="img-responsive w-100 object-fit-cover" height="400" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/map/map-approximate-distance.jpg" class="img-responsive w-100 object-fit-cover" height="400" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-button-next swiper-button-next-beachside-properties"></div>
+                            <div class="swiper-button-prev swiper-button-prev-beachside-properties"></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-experience-title">Plaza Laiya</h4>
+                                <p class="card-experience-text">There is nothing like unwinding in a quiet resort garden where you can see different types of flora in full bloom. Club Laiya’s resort garden deepens your connection with nature and your love for serene and scenic places.</p>
+                                <a href="contact-us.html" class="btn btn-primary mt-3">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-cols-xl-2 row-cols-lg-2 g-5 align-items-center flex-reverse">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-experience-title">Kava & Aiya</h4>
+                                <p class="card-experience-text">The Kava and Aiya Boulevard is the center of Club Laiya’s residential - commercial use properties. It is where you can build a highly profitable business such as cafes, retail stores, fashion lines, and many miscellaneous establishments.</p>
+                                <a href="contact-us.html" class="btn btn-primary mt-3">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="swiper-container swiper-beachside-properties">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/properties/kava-aiya.jpg" class="img-responsive w-100 object-fit-cover" height="400" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/map/map-approximate-distance.jpg" class="img-responsive w-100 object-fit-cover" height="400" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-button-next swiper-button-next-beachside-properties"></div>
+                            <div class="swiper-button-prev swiper-button-prev-beachside-properties"></div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -171,7 +220,9 @@
 
                         <div class="swiper-slide">
                             <div class="card-plain d-grid justify-items-center p-0">
-                                <img src="img/cta/cta-home-section.jpg" class="card-img-top experience-img-circle" alt="">
+                                <a href="img/cta/cta-home-section.jpg" data-fancybox="images" data-caption="Blue Road">
+                                    <img src="img/cta/cta-home-section.jpg" class="card-img-top experience-img-circle" alt="">
+                                </a>
                                 <div class="card-body">
                                     <div class="text-center mt-3">
                                         <h4 class="card-experience-title">Blue Road</h4>
@@ -183,7 +234,9 @@
 
                         <div class="swiper-slide">
                             <div class="card-plain d-grid justify-items-center p-0">
-                                <img src="img/properties/wide-street.jpg" class="card-img-top experience-img-circle" alt="">
+                                <a href="img/properties/wide-street.jpg" data-fancybox="images" data-caption="Wide Street">
+                                    <img src="img/properties/wide-street.jpg" class="card-img-top experience-img-circle" alt="">
+                                </a>
                                 <div class="card-body">
                                     <div class="text-center mt-3">
                                         <h4 class="card-experience-title">Wide Street</h4>
@@ -195,7 +248,9 @@
 
                         <div class="swiper-slide">
                             <div class="card-plain d-grid justify-items-center p-0">
-                                <img src="img/properties/open-spaces.jpg" class="card-img-top experience-img-circle" alt="">
+                                <a href="img/properties/open-spaces.jpg" data-fancybox="images" data-caption="Open Spaces">
+                                    <img src="img/properties/open-spaces.jpg" class="card-img-top experience-img-circle" alt="">
+                                </a>
                                 <div class="card-body">
                                     <div class="text-center mt-3">
                                         <h4 class="card-experience-title">Open Spaces</h4>
@@ -207,7 +262,9 @@
 
                         <div class="swiper-slide">
                             <div class="card-plain d-grid justify-items-center p-0">
-                                <img src="img/properties/designated-ped-bike.jpg" class="card-img-top experience-img-circle" alt="">
+                                <a href="img/properties/designated-ped-bike.jpg" data-fancybox="images" data-caption="Designated Ped & Bike">
+                                    <img src="img/properties/designated-ped-bike.jpg" class="card-img-top experience-img-circle" alt="">
+                                </a>
                                 <div class="card-body">
                                     <div class="text-center mt-3">
                                         <h4 class="card-experience-title">Designated Ped & Bike</h4>
@@ -219,7 +276,9 @@
 
                         <div class="swiper-slide">
                             <div class="card-plain d-grid justify-items-center p-0">
-                                <img src="img/properties/expensive-beachfront.png" class="card-img-top experience-img-circle" alt="">
+                                <a href="img/properties/expensive-beachfront.png" data-fancybox="images" data-caption="Expansive beachfront">
+                                    <img src="img/properties/expensive-beachfront.png" class="card-img-top experience-img-circle" alt="">
+                                </a>
                                 <div class="card-body">
                                     <div class="text-center mt-3">
                                         <h4 class="card-experience-title">Expansive beachfront</h4>
@@ -373,26 +432,7 @@
             </div>
         </section>
 
-        <section class="cta-section" style="background-image: url('./img/properties/expensive-beachfront.png');">
-            <div class="container">
-                <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-1 justify-content-between align-items-center g-xl-5 g-lg-5 g-1">
-                    <div class="col" data-aos="fade-up" data-aos-duration="500">
-                        <img src="img/projects/laiya-beach-club.jpg" class="img-responsive w-100 pr" alt="">
-                    </div>
-                    <div class="col" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="card card-glass">
-                            <div class="card-body">
-                                <h4 class="card-title">Beachtowns</h4>
-                                <p class="card-text">Nestled by the glorious and ambient sound of the sea, Club Laiya has mastered the seamless blend of commercial and residential properties.</p>
-                                <a href="#" class="btn btn-primary mt-2">Explore</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
+        <section class="bg-light">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-5 col-md-10">
