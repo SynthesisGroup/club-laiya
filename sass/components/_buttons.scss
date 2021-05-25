@@ -12,11 +12,11 @@
     }
 
     &:hover {
-        background-color: var(--mr-color-primary);
+        background-color: var(--mr-color-secondary);
     }
 }
 
 .btn-primary {
-    background-color: var(--mr-color-secondary);
+    background-color: var(--mr-color-primary);
     border: none;
 }

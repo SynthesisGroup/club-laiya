@@ -20,7 +20,7 @@ body { overflow-x: hidden; }
 .section-map .card-body a:hover { opacity: 0.5; }
 
 .section-map .icon-map-marker { position: absolute; display: block; width: 160px; height: 70px; z-index: 2; }
-.section-map .icon-map-marker { background-color: #222222; padding: 0 10px; }
+.section-map .icon-map-marker { background-color: #FFFFFF; padding: 0 10px; }
 .section-map .icon-map-marker svg { fill: black; display: none; }		
 .section-map .card-marker-details { position: absolute; max-width: 320px; left: 0; top: 50%; z-index: 2; }
 
@@ -44,9 +44,9 @@ body { overflow-x: hidden; }
 .section-map .icon-map-marker:after { width: 0; height: 0; border-top: 20px solid #222222; }
 
 .section-map .icon-map-marker.map-project-1 { left: 43.7%; top: 25%; transform: translate(-100%, -100%); }
-.section-map .icon-map-marker.map-project-2 { left: 28.5%; top: 33.5%; transform: translate(100%, -100%); }
+.section-map .icon-map-marker.map-project-2 { left: 30.5%; top: 32.5%; transform: translate(100%, -100%); }
 .section-map .icon-map-marker.map-project-1:after { bottom: -99px; right: 15px; border-top: 100px solid #222222; }
-.section-map .icon-map-marker.map-project-2:after { bottom: -19px; left: 10px; border-top: 20px solid #222222; }
+.section-map .icon-map-marker.map-project-2:after { bottom: -19px; left: 10px; border-top: 20px solid #FFFFFF; }
 .section-map .icon-map-marker.map-project-2:after { border-left: 5px solid transparent; border-right: 5px solid transparent; }	
 
 .section-map.for-mobile .icon-map-marker.map-project-1:after { bottom: -99px; right: 15px; }
