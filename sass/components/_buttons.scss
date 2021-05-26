@@ -5,6 +5,9 @@
     letter-spacing: 0.15em;
     padding: 12px 32px 12px 32px;
     border-radius: 1px;
+    width: auto;
+    display: inline-flex;
+    align-items: center;
 
     &:focus {
         outline: none;
@@ -13,6 +16,10 @@
 
     &:hover {
         background-color: var(--mr-color-secondary);
+    }
+
+    ion-icon {
+        font-size: 18px;
     }
 }
 

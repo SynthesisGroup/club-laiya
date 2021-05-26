@@ -129,7 +129,7 @@
 // iPad
 @media only screen and (max-width: 768px) {
     // Header and Navbar
-    header {
+    header, .header-fixed {
         .navbar {
             .sidebar-toggler {
                 display: block;
@@ -157,6 +157,7 @@
                     a {
                         font-size: 16px;
                         padding: 0 12px;
+                        color: var(--mr-color-dark);
                     }
                 }
 
@@ -168,6 +169,7 @@
                     .active {
                         padding: 12px;
                         color: var(--mr-color-white);
+                        border-bottom: transparent;
                     }
                 }
             }
@@ -202,6 +204,29 @@
         }
     }
 
+    .club-laiya-address {        
+        .card {
+            padding: 20px;
+            .card-body {
+                img {
+                    height: 100px;
+                }
+
+                h4 {
+                    font-size: 16px;
+                }
+    
+                p {
+                    font-size: 11px;
+                }
+
+                .btn {
+                    font-size: 11px;
+                }
+            } 
+        }
+    }
+
     // Footer
     footer {
         .footer-text {
@@ -213,7 +238,7 @@
 // Mobile
 @media only screen and (max-width: 576px) {
     // Header and Navbar
-    header {
+    header, .header-fixed {
         .navbar {
             .sidebar-toggler {
                 display: block;
@@ -246,6 +271,7 @@
                     a {
                         font-size: 14px;
                         padding: 0 12px;
+                        color: var(--mr-color-dark);
                     }
                 }
 
@@ -257,6 +283,7 @@
                     .active {
                         padding: 12px;
                         color: var(--mr-color-white);
+                        border-bottom: transparent;
                     }
                 }
             }
@@ -319,6 +346,14 @@
             width: 300px;
             height: 300px;
         }
+    }
+
+    .club-laiya-address {
+        position: relative;
+        top: -160px;
+        left: 0;
+        transform: translateY(0);
+        width: 100%;
     }
 
     // Section

@@ -7,13 +7,17 @@ document.addEventListener('DOMContentLoaded', function() {
     let headerElement = document.getElementById('header')
     window.onscroll = () => { stickyHeader() }
     document.getElementById("year").innerHTML = new Date().getFullYear()
-
+    
     // Header Fixed
     function stickyHeader() {
         if (window.pageYOffset > 0) {
             headerElement.classList.add('header-fixed')
+            document.getElementById('img-fixed').style.display = 'block'
+            document.getElementById('img-default').style.display = 'none'
         } else {
             headerElement.classList.remove('header-fixed');
+            document.getElementById('img-fixed').style.display = 'none'
+            document.getElementById('img-default').style.display = 'block'
         }
     }
 
@@ -33,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         navMenu.style.display = 'none';
         body.classList.remove('disabled-bodyscroll');
     });
+
 
     // AOS Initialized
     AOS.init();

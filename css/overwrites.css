@@ -5,19 +5,13 @@ body { overflow-x: hidden; }
 
 /* Section: Map */
 .section-map { position: relative; padding-bottom: 0; padding-top: 100px; margin-top: 0; }
-.section-map { background-position: top; background-repeat: no-repeat; background-color: #FFFFFF; }
+.section-map { background-position: top; background-repeat: no-repeat; background-color: #FFFFFF; background-size: cover; }
 .section-map:before { position: absolute; content: ""; height: 30%; width: 100%; z-index: 1; top: 0; }
 .section-map:before { background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%); }
 .section-map:after { position: absolute; bottom: 0; height: 30%; width: 100%; content: ""; z-index: 1; }
 .section-map:after { background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%); }
 
 .section-map .container { position: relative; z-index: 10; }
-.section-map .card { border: 0; border-radius: 0; background-color: transparent; }
-.section-map .card-body { padding: 40px; background-color: #222222; }
-.section-map .card-body h2,
-.section-map .card-body p { color: #FFFFFF; line-height: 1.8em; }
-.section-map .card-body a { color: #CCCCCC; }
-.section-map .card-body a:hover { opacity: 0.5; }
 
 .section-map .icon-map-marker { position: absolute; display: block; width: 160px; height: 70px; z-index: 2; }
 .section-map .icon-map-marker { background-color: #FFFFFF; padding: 0 10px; }
@@ -52,13 +46,14 @@ body { overflow-x: hidden; }
 .section-map.for-mobile .icon-map-marker.map-project-1:after { bottom: -99px; right: 15px; }
 .section-map.for-mobile .icon-map-marker.map-project-2:after { bottom: -19px; left: 0; }
 
-.home-banner-section { height: calc(100vh - 100px); }
-.home-banner-section .banner-bottom-text { line-height: 1.5; display: block; }
-.home-banner-section .banner-subtext { line-height: 1.5; }
-
-.widget-reservation { position: absolute; bottom: 20px; left: 50%; transform: translate(-50%, 0); z-index: 10000; }
-
 /* Responsive */
+
+@media (max-width: 1200px) {
+    .section-map .icon-map-marker.map-project-2 {
+        left: 24.5%;
+        top: 30.5%;
+    }
+}
 
 /* 320  */
 @media (min-width: 320px) {	
@@ -80,4 +75,15 @@ body { overflow-x: hidden; }
 
 .widget-reservation { bottom: 20px; }
 .section-introduction { margin-top: 0; }
+}
+
+@media (max-width: 768px) {
+    .section-map .icon-map-marker.map-project-2 {
+        left: 16.5%;
+    }
+}
+
+@media (max-width: 576px) {
+    .philippine-map { width: 100%; }
+    .section-map .icon-map-marker.map-project-2 { left: -7.5%; }
 }

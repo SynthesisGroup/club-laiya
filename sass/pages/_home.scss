@@ -20,7 +20,7 @@
 
     .container {
         position: absolute;
-        top: 45%;
+        top: 50%;
         left: 0;
         right: 0;
         transform: translateY(-50%);
@@ -112,5 +112,29 @@
         ion-icon {
             margin-right: 16px;
         }
+    }
+}
+
+.club-laiya-address {
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    transform: translateY(-50%);
+    width: 35%;
+    display: none;
+    
+    .card {
+        background-color: var(--mr-color-dark);
+        @extend .scale-in-center;
+
+        .card-body {
+            img {
+                height: 200px;
+            }
+
+            h4, p {
+                color: var(--mr-color-white);
+            }
+        } 
     }
 }

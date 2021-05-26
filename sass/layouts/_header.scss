@@ -1,7 +1,6 @@
 header {
-    position: relative;
+    position: fixed;
     width: 100%;
     z-index: 9;
-    background-color: var(--mr-color-white);
-    box-shadow: var(--mr-box-shadow);
+    background-color: transparent;
 }
