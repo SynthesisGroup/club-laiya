@@ -38,7 +38,6 @@ document.addEventListener('DOMContentLoaded', function() {
         body.classList.remove('disabled-bodyscroll');
     });
 
-
     // AOS Initialized
     AOS.init();
 
