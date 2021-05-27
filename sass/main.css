@@ -518,7 +518,7 @@ footer .footer-logo {
 
 footer .footer-text {
   width: 80%;
-  color: var(--mr-color-white);
+  color: var(--mr-color-primary-light);
   margin-top: 30px;
 }
 
@@ -548,7 +548,7 @@ footer .footer-socials .footer-social-items a {
   height: 46px;
   border-radius: 50%;
   background-color: #26A0DE;
-  color: var(--mr-color-white);
+  color: var(--mr-color-primary-light);
   font-size: 20px;
 }
 
@@ -562,7 +562,7 @@ footer .footer-socials .footer-social-items a:hover {
 footer .footer-title {
   font-size: 18px;
   font-weight: 600;
-  color: var(--mr-color-white);
+  color: var(--mr-color-primary-light);
   margin-bottom: 16px;
 }
 
@@ -575,7 +575,7 @@ footer .footer-menu .footer-items {
 }
 
 footer .footer-menu .footer-items a {
-  color: var(--mr-color-white);
+  color: var(--mr-color-primary-light);
 }
 
 footer .footer-menu .footer-contacts {
@@ -590,11 +590,11 @@ footer .footer-menu .footer-contacts ion-icon {
   font-size: 18px;
   margin-right: 12px;
   margin-top: 6px;
-  color: var(--mr-color-white);
+  color: var(--mr-color-primary-light);
 }
 
 footer .footer-menu .footer-contacts a {
-  color: var(--mr-color-white);
+  color: var(--mr-color-primary-light);
 }
 
 footer .footer-bottom {
@@ -613,11 +613,11 @@ footer .footer-bottom {
 }
 
 footer .footer-bottom .footer-bottom-text {
-  color: var(--mr-color-white);
+  color: var(--mr-color-primary-light);
 }
 
 footer .footer-bottom .footer-bottom-text #year {
-  color: var(--mr-color-white);
+  color: var(--mr-color-primary-light);
 }
 
 .btn {
