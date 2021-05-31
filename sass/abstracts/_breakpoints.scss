@@ -298,10 +298,14 @@
     // Home Banner Section
     .home-banner-section {
         .container {
-            top: 50%;
+            top: 60%;
             width: 100%;
             .banner-heading {
                 width: 100%;
+
+                .banner-img-logo {
+                    width: 200px;
+                }
 
                 .banner-title {
                     font-size: 45px;

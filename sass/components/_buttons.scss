@@ -9,9 +9,10 @@
     display: inline-flex;
     align-items: center;
 
-    &:focus {
+    &:focus, &:active {
         outline: none;
         box-shadow: none;
+        background-color: var(--mr-color-secondary);
     }
 
     &:hover {

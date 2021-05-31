@@ -4,7 +4,7 @@
   --mr-color-primary-light: #e7dcca;
   --mr-color-secondary: #2a2b2b;
   --mr-color-white: #ffffff;
-  --mr-color-black: #01222b;
+  --mr-color-black: #000000;
   --mr-color-dark: #272a2c;
   --mr-color-light-gray: #8F8F8F;
   --mr-font-karla: 'Karla', sans-serif;
@@ -298,7 +298,7 @@ header {
   width: 100%;
   height: 100%;
   display: block;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .inner-page-section .container {
@@ -508,7 +508,7 @@ section .section-headers .section-bottom-text {
 
 footer {
   padding: 80px 0 25px 0;
-  background-color: var(--mr-color-secondary);
+  background-color: var(--mr-color-black);
 }
 
 footer .footer-logo {
@@ -635,10 +635,11 @@ footer .footer-bottom .footer-bottom-text #year {
           align-items: center;
 }
 
-.btn:focus {
+.btn:focus, .btn:active {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
+  background-color: var(--mr-color-secondary);
 }
 
 .btn:hover {
@@ -802,12 +803,12 @@ footer .footer-bottom .footer-bottom-text #year {
   width: 100%;
   height: 100%;
   display: block;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .home-banner-section .container {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 0;
   right: 0;
   -webkit-transform: translateY(-50%);
@@ -820,6 +821,10 @@ footer .footer-bottom .footer-bottom-text #year {
 
 .home-banner-section .container .banner-heading {
   width: 60%;
+}
+
+.home-banner-section .container .banner-heading .banner-img-logo {
+  width: 400px;
 }
 
 .home-banner-section .container .banner-heading .banner-upper-text {
@@ -1363,11 +1368,14 @@ footer .footer-bottom .footer-bottom-text #year {
         flex-wrap: wrap-reverse;
   }
   .home-banner-section .container {
-    top: 50%;
+    top: 60%;
     width: 100%;
   }
   .home-banner-section .container .banner-heading {
     width: 100%;
+  }
+  .home-banner-section .container .banner-heading .banner-img-logo {
+    width: 200px;
   }
   .home-banner-section .container .banner-heading .banner-title {
     font-size: 45px;

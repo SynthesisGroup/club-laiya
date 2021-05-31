@@ -12,12 +12,12 @@ document.addEventListener('DOMContentLoaded', function() {
     function stickyHeader() {
         if (window.pageYOffset > 0) {
             headerElement.classList.add('header-fixed')
-            // document.getElementById('img-fixed').style.display = 'block'
-            // document.getElementById('img-default').style.display = 'none'
+            document.getElementById('img-fixed').style.display = 'block'
+            document.getElementById('img-default').style.display = 'none'
         } else {
             headerElement.classList.remove('header-fixed');
-            // document.getElementById('img-fixed').style.display = 'none'
-            // document.getElementById('img-default').style.display = 'block'
+            document.getElementById('img-fixed').style.display = 'none'
+            document.getElementById('img-default').style.display = 'block'
         }
     }
 
@@ -128,6 +128,11 @@ document.addEventListener('DOMContentLoaded', function() {
     let swiperBeachsideProperties = new Swiper('.swiper-beachside-properties', {
         slidesPerView: 1,
         spaceBetween: 1,
+        pagination: {
+            el: '.swiper-pagination-beachside-properties',
+            clickable: true,
+            dynamicBullets: true,
+        },
         navigation: {
             nextEl: ".swiper-button-next-beachside-properties",
             prevEl: ".swiper-button-prev-beachside-properties",
