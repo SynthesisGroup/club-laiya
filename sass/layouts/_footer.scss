@@ -1,7 +1,6 @@
 footer {
     padding: 80px 0 25px 0;
-    background-color: var(--mr-color-white);
-    border-top: 4px solid var(--mr-color-primary);
+    background-color: #333333;
 
     .footer-logo {
         width: 250px;
@@ -10,7 +9,7 @@ footer {
 
     .footer-text {
         width: 80%;
-        color: var(--mr-color-black);
+        color: var(--mr-color-white);
         margin-top: 30px;
     }
 
@@ -29,7 +28,7 @@ footer {
                 height: 46px;
                 border-radius: 50%;
                 background-color: #26A0DE;
-                color: var(--mr-color-black);
+                color: var(--mr-color-white);
                 font-size: 20px;
 
                 &:hover {
@@ -44,7 +43,7 @@ footer {
     .footer-title {
         font-size: 18px;
         font-weight: 600;
-        color: var(--mr-color-black);
+        color: var(--mr-color-white);
         margin-bottom: 16px;
     }
 
@@ -55,7 +54,7 @@ footer {
             padding-bottom: 8px;
 
             a {
-                color: var(--mr-color-black);
+                color: var(--mr-color-white);
             }
         }
 
@@ -68,11 +67,11 @@ footer {
                 font-size: 18px;
                 margin-right: 12px;
                 margin-top: 6px;
-                color: var(--mr-color-black);
+                color: var(--mr-color-white);
             }
 
             a {
-                color: var(--mr-color-black);
+                color: var(--mr-color-white);
             }
         }
     }
@@ -85,10 +84,10 @@ footer {
         padding: 30px 0 0 0;
         margin-top: 35px;
         .footer-bottom-text {
-            color: var(--mr-color-black);
+            color: var(--mr-color-white);
 
             #year {
-                color: var(--mr-color-black);
+                color: var(--mr-color-white);
             }
         }
     }
