@@ -459,3 +459,23 @@
         }
     }
 }
+
+@media only screen and (max-width: 320px) {
+    // Home Banner Section
+    .home-banner-section {
+        .container {
+            .banner-heading {
+                .banner-upper-text {
+                    font-size: 16px;
+                }
+                .banner-title {
+                    font-size: 35px;
+                }
+
+                .banner-bottom-text {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

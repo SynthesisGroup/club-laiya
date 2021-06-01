@@ -1474,6 +1474,18 @@ footer .footer-bottom .footer-bottom-text #year {
   }
 }
 
+@media only screen and (max-width: 320px) {
+  .home-banner-section .container .banner-heading .banner-upper-text {
+    font-size: 16px;
+  }
+  .home-banner-section .container .banner-heading .banner-title {
+    font-size: 35px;
+  }
+  .home-banner-section .container .banner-heading .banner-bottom-text {
+    font-size: 12px;
+  }
+}
+
 .scale-in-center, .modal .modal-dialog, .club-laiya-address .card {
   -webkit-animation: scale-in-center 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: scale-in-center 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
