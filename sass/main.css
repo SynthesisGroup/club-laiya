@@ -79,6 +79,8 @@ p, span, label, a {
   color: var(--mr-color-black);
 }
 
+
+
 h1 {
   font-size: 3.052rem;
 }
@@ -111,9 +113,11 @@ h6 {
   color: var(--mr-color-white);
 }
 
+
 .bg-primary {
   background-color: var(--mr-color-primary) !important;
 }
+
 
 .bg-circle-icon {
   display: -webkit-box;
