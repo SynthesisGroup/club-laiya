@@ -8,24 +8,42 @@
 
 /* 320  */
 @media (min-width: 320px) {	
-.for-mobile { display: block; }
-.for-screen { display: none; }
+	.for-mobile { display: block; }
+	.for-screen { display: none; }
 
-.section-map.for-mobile .icon-map-marker.map-project-1 { left: 47%; top: 0%; }
-.section-map.for-mobile .icon-map-marker.map-project-2 { right: 59%; top: 27%; left: auto; }
-.home-banner-section .container { width: 100%; }
+	.section-map.for-mobile .icon-map-marker.map-project-1 { left: 47%; top: 0%; }
+	.section-map.for-mobile .icon-map-marker.map-project-2 { right: 59%; top: 27%; left: auto; }
+	
+	.home-banner-section { height: 480px; }
+	.home-banner-section .container { width: 100%; }
+	.home-banner-section .container .banner-heading { margin-bottom: 0; }
+	.home-banner-section .container .banner-heading .banner-title { font-size: 32px; line-height: 40px; }
 
-.widget-reservation { bottom: -200px; width: 100%; }
-.section-introduction { margin-top: 100px; }
+	.widget-reservation { bottom: -200px; width: 100%; }
+	.section-introduction { margin-top: 0; padding-top: 100px; }
+	
+	.section-featured { position: static; bottom: 0; transform: translate(0, 0); }
+	.section-featured { text-align: center; margin-top: 0; left: 0; }
+	.section-featured .row { padding: 20px; }
+	.section-featured:before { display: block; }
 }
 
 /* 768 */
 @media (min-width: 768px) {	
-.for-mobile { display: none; }
-.for-screen { display: block; }
+	.for-mobile { display: none; }
+	.for-screen { display: block; }
 
-.widget-reservation { bottom: 20px; }
-.section-introduction { margin-top: 0; }
+	.widget-reservation { bottom: 20px; }
+	.section-introduction { margin-top: 0; padding-top: 250px; }
+	
+	.home-banner-section { height: 100vh; }
+	.home-banner-section .container .banner-heading { margin-bottom: 75px; }
+	.home-banner-section .container .banner-heading .banner-title { font-size: 56px; line-height: 64px; }
+	
+	.section-featured { position: absolute; bottom: -150px; padding: 30px; transform: translate(-50%, 0); }
+	.section-featured { text-align: left; margin-top: -100px; left: 50%; }
+	.section-featured .row { padding: 30px; }
+	.section-featured:before { display: none; }
 }
 
 @media (max-width: 768px) {
