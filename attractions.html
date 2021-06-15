@@ -17,12 +17,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <!-- Main Style -->
     <link rel="stylesheet" href="css/style.min.css">
-	<style>
-		.hide { display:none; }
-	</style>
-<style>
-		.hide { display:none; }
-	</style>
+	<link rel="stylesheet" href="css/overwrites.css">
+	<link rel="stylesheet" href="css/responsive.css">
 </head>
 <body class="preload">
     <!-- Start: Header -->
@@ -45,8 +41,12 @@
                     <li class="navbar-items">
                         <a href="index.html">Home</a>
                     </li>
-                    <li class="navbar-items">
+                    <li class="navbar-items nav-parent">
                         <a href="properties.html">Properties</a>
+						<ul class="nav-child">
+							<li class="nav-child-item"><a href="upper-westside-district.html">Upper Westside District</a></li>
+							<li class="nav-child-item"><a href="properties.html#anchor_seaside_district">Seaside District</a></li>
+						</ul>
                     </li>
                     <li class="navbar-items navbar-items-active">
                         <a href="attractions.html" class="active">Attractions</a>
@@ -108,7 +108,31 @@
                             <div class="card-body">
                                 <div class="text-center mt-3">
                                     <h4 class="card-experience-title">The Isle</h4>
-                                    <p class="card-experience-text">Celebrate life & special occasions with more style at The Isle. An ultra-modern events venue with a magnificent view of the beach.</p>
+                                    <p class="card-experience-text">Celebrate life &amp; special occasions with more style at The Isle. An ultra-modern events venue with a magnificent view of the beach.</p>
+                                    <a href="" class="card-link">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card p-0">
+                            <img src="img/properties/boardwalk.jpg" class="card-img-top w-100 object-fit-cover" height="400" alt="">
+                            <div class="card-body">
+                                <div class="text-center mt-3">
+                                    <h4 class="card-experience-title">Boardwalk</h4>
+                                    <p class="card-experience-text">Whether you prefer the unreal Millennial Resorts, astounding Sceniq Properties, or prestige Metro Dusit, one thing is guaranteed: unparalleled amenities. Discover trendy restaurants and bars, vast and lush nature, as well as exclusive beach clubs.</p>
+                                    <a href="" class="card-link">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card p-0">
+                            <img src="img/properties/plaza-laiya.jpg" class="card-img-top w-100 object-fit-cover" height="400" alt="">
+                            <div class="card-body">
+                                <div class="text-center mt-3">
+                                    <h4 class="card-experience-title">Plaza Laiya</h4>
+                                    <p class="card-experience-text">Playa Laiya is our master-planned exclusive seaside residential community in Laiya, San Juan, Batangas. Built on a 128-hectare leisure-tourism estate, it showcases an extensive beachfront that offers the perfect setting for seaside living.</p>
                                     <a href="" class="card-link">Explore</a>
                                 </div>
                             </div>
@@ -124,7 +148,7 @@
                     <div class="col-xl-9 col-md-10">
                         <div class="section-headers" data-aos="fade-up">
                             <h4 class="section-title">Millennial Resorts</h4>
-                            <p class="section-bottom-text">Where the unreal becomes real in the palm of your hands. Millennial Resorts are perfect for those who seek unique experiences paired with innovative structures. Discovering hot spots, hidden gems & resort destinations in the Philippines.</p>
+                            <p class="section-bottom-text">Where the unreal becomes real in the palm of your hands. Millennial Resorts are perfect for those who seek unique experiences paired with innovative structures. Discovering hot spots, hidden gems &amp; resort destinations in the Philippines.</p>
                         </div>
                     </div>
                 </div>
@@ -132,7 +156,7 @@
                 <div class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-2 row-cols-1 mt-4 g-5">
                     <div class="col" data-aos="fade-up" data-aos-duration="500">
                         <div class="card p-0">
-                            <img src="img/properties/captain-barbozza.png" class="card-img-top w-100 object-fit-cover" height="300" alt="">
+                            <img src="img/properties/captain-barbozza-2.png" class="card-img-top w-100 object-fit-cover" height="300" alt="">
                             <div class="card-body">
                                 <div class="text-center mt-3">
                                     <h4 class="card-experience-title">Captain Barbozza</h4>
@@ -144,7 +168,7 @@
                     </div>
                     <div class="col" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card p-0">
-                            <img src="img/projects/cocoons-img-2.jpg" class="card-img-top w-100 object-fit-cover" height="300" alt="">
+                            <img src="img/projects/cocoons-img-3.jpg" class="card-img-top w-100 object-fit-cover" height="300" alt="">
                             <div class="card-body">
                                 <div class="text-center mt-3">
                                     <h4 class="card-experience-title">Cocoons</h4>

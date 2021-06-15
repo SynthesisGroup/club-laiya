@@ -18,9 +18,7 @@
     <!-- Main Style -->
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/overwrites.css">
-<style>
-		.hide { display:none; }
-	</style>
+	<link rel="stylesheet" href="css/responsive.css">
 </head>
 <body class="preload">
     <!-- Start: Header -->
@@ -43,8 +41,12 @@
                     <li class="navbar-items navbar-items-active">
                         <a href="index.html" class="active">Home</a>
                     </li>
-                    <li class="navbar-items">
+                    <li class="navbar-items nav-parent">
                         <a href="properties.html">Properties</a>
+						<ul class="nav-child">
+							<li class="nav-child-item"><a href="upper-westside-district.html">Upper Westside District</a></li>
+							<li class="nav-child-item"><a href="properties.html#anchor_seaside_district">Seaside District</a></li>
+						</ul>
                     </li>
                     <li class="navbar-items">
                         <a href="attractions.html">Attractions</a>
@@ -67,10 +69,10 @@
 
     <!-- Start: Main Wrapper -->
     <main>
-        <div class="swiper-banner">
+        <div class="swiper-banner slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <section class="home-banner-section" style="background-image: url(./img/banners/default-home-slider.jpg);" data-aos="fade-up" data-aos-duration="500">
+                    <section class="home-banner-section" data-aos="fade-up" data-aos-duration="500">
                         <div class="container">
                             <div class="banner-heading">
                                 <span class="banner-upper-text">Club Laiya</span>
@@ -135,7 +137,7 @@
                     </div>
                     <div class="col" data-aos="zoom-in" data-aos-duration="1500">
                         <div class="card-counter">
-							<h5 class="card-counter-title">Seaside District</h4>
+							<h5 class="card-counter-title">Seaside District</h5>
                             <h4 class="card-counter-header">300 to 3,150</h4>
                             <h5 class="card-counter-title">sqm Lot Sizes</h5>
                         </div>
@@ -147,8 +149,32 @@
                         </div>
                     </div>
                 </div>
-
-                
+                <div class="row justify-content-center mt-4 g-5 hidden">
+                    <div class="col-md-5" data-aos="fade-up" data-aos-duration="500">
+                        <div class="card p-0">
+                            <img src="img/projects/cocoons-resort-hotel.jpg" class="card-img-top w-100 object-fit-cover" height="350" alt="">
+                            <div class="card-body">
+                                <div class="text-center mt-3">
+                                    <h4 class="card-experience-title">A New Resort Adventure</h4>
+                                    <p class="card-experience-text">Living up to its promise of urban luxury, the hotels boast state-of-the-art amenities that cater to your rich and prestigious lifestyle.</p>
+                                    <a href="" class="card-link">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card p-0">
+                            <img src="img/projects/laiya-beach-club.jpg" class="card-img-top w-100 object-fit-cover" height="350" alt="">
+                            <div class="card-body">
+                                <div class="text-center mt-3">
+                                    <h4 class="card-experience-title">Everyday Vacation Feel</h4>
+                                    <p class="card-experience-text">Wake up to the calming sound of the ocean waves and breathe in that fresh sea breeze. Indulge in an early morning swim or spend time with family and friends on the pristine sands of Laiya beaches.</p>
+                                    <a href="attractions.html" class="card-link">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -180,7 +206,7 @@
         </section>
 
         <!-- .section-map -->
-		<section class="section-map" style="background-image: url('img/map/img-ocean.jpg'); ">
+		<section class="section-map hidden" style="background-image: url('img/map/img-ocean.jpg'); ">
 			<div class="container">
                 <div class="row justify-content-center text-center">
                     <div class="col-xl-6" data-aos="fade-up">
@@ -191,7 +217,6 @@
                     </div>
                 </div>
 				<div class="row justify-content-center align-items-center">
-
 					<div class="col-md-10">
 						<div class="position-relative d-flex justify-content-center">
                             <a href="img/vicinity-maps/Club Laiya Vicinity Map-min.jpg" data-fancybox>
@@ -202,6 +227,26 @@
                             </a>
 							<img src="img/map/philippine-map.png" class="img-fluid philippine-map" width="60%" alt="" />
 						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /.section-map -->
+		
+		<!-- .section-map -->
+		<section class="vicinity-map">
+			<div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-xl-6" data-aos="fade-up">
+                        <div class="section-headers">
+                            <div class="section-upper-text">Club Laiya</div>
+                            <h4 class="section-title">Vicinity Map</h4>
+                        </div>
+                    </div>
+                </div>
+				<div class="row justify-content-center align-items-center">
+					<div class="col-md-10">
+						<img src="img/map/vicinity-map.jpg" alt="Vicinity Map" class="img-fluid" />
 					</div>
 				</div>
 			</div>
@@ -269,7 +314,7 @@
                             <img src="img/projects/luxury-excitement.png" class="card-img-top w-100 object-fit-cover" height="350" alt="">
                             <div class="card-body">
                                 <div class="text-center mt-3">
-                                    <h4 class="card-experience-title">A Life of Luxury & Excitement</h4>
+                                    <h4 class="card-experience-title">A Life of Luxury &amp; Excitement</h4>
                                     <p class="card-experience-text">At Club Laiya, yours is the edge to live your life to the fullest. Truly, it’s a playground of the distinguished few and a frontier commanded by you 
                                         </p>
                                     <a href="properties.html" class="card-link">Explore</a>
@@ -297,7 +342,7 @@
             </div>
         </section>
 
-        <!-- <section class="bg-light">
+        <section class="bg-light hidden">
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <div class="col-xl-10 col-md-10">
@@ -328,7 +373,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <section class="hide">
             <div class="container">
@@ -341,7 +386,7 @@
                 </div>
 
                 <div class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-2 row-cols-1 g-5 mt-4">
-                    <div class="col" data-aos="fade-up"data-aos-duration="500">
+                    <div class="col" data-aos="fade-up" data-aos-duration="500">
                         <div class="card p-0">
                             <img src="img/news/news-thumbnail-1.png" class="card-img-top" alt="...">
                             <div class="card-body card-news-body">
@@ -351,7 +396,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col" data-aos="fade-up"data-aos-duration="1000">
+                    <div class="col" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card p-0">
                             <img src="img/news/news-thumbnail-2.png" class="card-img-top" alt="...">
                             <div class="card-body card-news-body">
@@ -361,7 +406,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col" data-aos="fade-up"data-aos-duration="1500">
+                    <div class="col" data-aos="fade-up" data-aos-duration="1500">
                         <div class="card p-0">
                             <img src="img/news/news-thumbnail-3.png" class="card-img-top" alt="...">
                             <div class="card-body card-news-body">
@@ -451,6 +496,51 @@
 								<div class="swiper-slide">
                                     <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
                                         <img src="img/gallery/gallery-img-11.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+								<div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-12.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+								<div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-13.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+								<div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-14.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+								<div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-15.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+								<div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-16.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+								<div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-17.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+								<div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-18.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+								<div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-19.png" class="img-responsive w-100" alt="">
+                                    </a>
+                                </div>
+								<div class="swiper-slide">
+                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-20.png" class="img-responsive w-100" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -562,5 +652,12 @@
     <!-- Cookie Consent -->
     <script src="https://cdn.websitepolicies.net/lib/cookieconsent/1.0.3/cookieconsent.min.js" defer></script>
     <script>window.addEventListener("load",function(){window.wpcc.init({"corners":"small","colors":{"popup":{"background":"#606060","text":"#ffffff","border":"#f9f9f9"},"button":{"background":"#f9f9f9","text":"#000000"}},"position":"bottom","content":{"href":"https://synthesisgroup.github.io/club-laiya/privacy-policy.html"}})});</script>
+	<script src="js/slideshow.min.js"></script>
+	<script>
+        easy_background(".slider", {
+            slide: ["img/slides/slide-1.jpg", "img/slides/slide-2.jpg", "img/slides/slide-3.jpg"],
+            delay: [5000, 5000, 5000]
+        });
+    </script>
 </body>
 </html>

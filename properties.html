@@ -17,9 +17,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <!-- Main Style -->
     <link rel="stylesheet" href="sass/main.css">
-<style>
-		.hide { display:none; }
-	</style>
+	<link rel="stylesheet" href="css/overwrites.css">
+	<link rel="stylesheet" href="css/responsive.css">
 </head>
 <body class="preload">
     <!-- Start: Header -->
@@ -42,8 +41,12 @@
                     <li class="navbar-items">
                         <a href="index.html">Home</a>
                     </li>
-                    <li class="navbar-items navbar-items-active">
-                        <a href="properties.html" class="active">Properties</a>
+					<li class="navbar-items navbar-items-active nav-parent">
+                        <a href="properties.html">Properties</a>
+						<ul class="nav-child">
+							<li class="nav-child-item"><a href="upper-westside-district.html">Upper Westside District</a></li>
+							<li class="nav-child-item"><a href="properties.html#anchor_seaside_district">Seaside District</a></li>
+						</ul>
                     </li>
                     <li class="navbar-items">
                         <a href="attractions.html">Attractions</a>
@@ -288,7 +291,7 @@
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-experience-title">The Kava & Aiya</h4>
+                                <h4 class="card-experience-title">The Kava &amp; Aiya</h4>
                                 <p class="card-experience-text">The Kava and Aiya Boulevards are the heart of Club Laiya’s Seaside District. It is where you can build a highly profitable business such as cafes, retail stores, fashion lines, and many miscellaneous establishments because of the its center street boulevard with Blue Streets.
 								These Blue Streets signify a  highly pedestrianized areas with bike lane that will  make exploring much easier and safer inside the Seaside District.​
 								</p>
@@ -320,6 +323,7 @@
             </div>
         </section>
 
+		<a name="anchor_seaside_district" id="anchor_seaside_district"></a>
         <section class="bg-light">
             <div class="container">
                 <div class="row justify-content-center text-center">

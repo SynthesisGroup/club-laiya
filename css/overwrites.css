@@ -1,4 +1,5 @@
 body { overflow-x: hidden; }
+.hide,
 .hidden { display: none !important; }
 .header-fixed { z-index: 999; }
 .navbar .navbar-menu .navbar-items a.btn-primary { padding-top: 15px !important; }
@@ -46,69 +47,11 @@ body { overflow-x: hidden; }
 .section-map.for-mobile .icon-map-marker.map-project-1:after { bottom: -99px; right: 15px; }
 .section-map.for-mobile .icon-map-marker.map-project-2:after { bottom: -19px; left: 0; }
 
-/* Responsive */
+/* Dropdown Menu */
+.nav-parent { position: relative; }
+.nav-parent:hover .nav-child { opacity: 1; transform: scaleY(1) translate(0, 0); top: 30px; }
+.nav-child { position: absolute; left: 0; margin: 0; padding: 10px 0 0; top: 0; }
+.nav-child { opacity: 0; transition: 0.3s ease all; transform: scaleY(0) translate(0, 0); }
+.nav-child .nav-child-item a { min-width: 240px; display: block; width: 100%; }
 
-@media (max-width: 1200px) {
-    .section-map .icon-map-marker.map-project-2 {
-        left: 24.5%;
-        top: 30.5%;
-    }
-}
-
-/* 320  */
-@media (min-width: 320px) {	
-.for-mobile { display: block; }
-.for-screen { display: none; }
-
-.section-map.for-mobile .icon-map-marker.map-project-1 { left: 47%; top: 0%; }
-.section-map.for-mobile .icon-map-marker.map-project-2 { right: 59%; top: 27%; left: auto; }
-.home-banner-section .container { width: 100%; }
-
-.widget-reservation { bottom: -200px; width: 100%; }
-.section-introduction { margin-top: 100px; }
-}
-
-/* 768 */
-@media (min-width: 768px) {	
-.for-mobile { display: none; }
-.for-screen { display: block; }
-
-.widget-reservation { bottom: 20px; }
-.section-introduction { margin-top: 0; }
-}
-
-@media (max-width: 768px) {
-    .section-map .icon-map-marker.map-project-2 {
-        left: 16.5%;
-    }
-}
-
-@media only screen and (max-width: 576px) {
-    .philippine-map { width: 100%; }
-}
-
-@media only screen and (max-width: 414px) {
-    .section-map .icon-map-marker.map-project-2 { left: -2.5%; }
-}
-
-@media only screen and (max-width: 411px) {
-    .section-map .icon-map-marker.map-project-2 { left: -2.5%; }
-}
-
-@media only screen and (max-width: 375px) {
-    .section-map .icon-map-marker.map-project-2 { left: -7.5% !important; }
-}
-
-@media only screen and (max-width: 360px) {
-    .section-map .icon-map-marker.map-project-2 { left: -10.5% !important; }
-}
-
-@media only screen and (max-width: 320px) {
-    .section-map .icon-map-marker.map-project-2 { left: -17.5% !important; }
-}
-
-
-
-
-
-
+.vicinity-map { margin-bottom: 0; }
