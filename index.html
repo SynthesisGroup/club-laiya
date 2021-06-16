@@ -132,8 +132,17 @@
                         </div>
                     </div>
                 </div>
+				<style>
+					.col-siteplan img { position: absolute; transition: 0.3s ease all; }
+					.col-siteplan .card { position: relative; width: 100%; }
+					.col-siteplan .highlight-siteplan { position: static; }
+					.col-siteplan .highlight-seaside { opacity: 0; }
+					.col-siteplan .highlight-westside { opacity: 0; }
+					.col-seaside:hover ~ .col-siteplan .highlight-seaside { opacity: 1; }
+					.col-westside:hover ~ .col-siteplan .highlight-westside { opacity: 1; }
+				</style>
 				<div class="row justify-content-center mt-4 g-5">
-                    <div class="col-md-3" data-aos="fade-up" data-aos-duration="500">
+                    <div class="col-md-3 col-seaside" data-aos="fade-up" data-aos-duration="500">
                         <div class="card card-project p-0">
 							<div class="card-img-top">
 								<a href="properties.html#anchor_seaside_district">
@@ -155,12 +164,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="card p-0">
-                            <img src="img/vicinity-maps/SDP.png" class="card-img-top w-100 object-fit-cover" height="480" alt="">
-                        </div>
-                    </div>
-					<div class="col-md-3" data-aos="fade-up" data-aos-duration="1000">
+					<div class="col-md-3 col-westside order-2" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card card-project p-0">
 							<div class="card-img-top">
 								<a href="upper-westside-district.html">
@@ -173,6 +177,13 @@
                                     <h5 class="card-counter-title"><strong>Coming Soon</strong></h5>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-siteplan" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card p-0">
+							<img src="img/vicinity-maps/SDP-seaside.jpg" class="img-fluid highlight-seaside" alt="">
+							<img src="img/vicinity-maps/SDP-westside.jpg" class="img-fluid highlight-westside" alt="">
+                            <img src="img/vicinity-maps/SDP.jpg" class="img-fluid highlight-siteplan" alt="">
                         </div>
                     </div>
                 </div>
