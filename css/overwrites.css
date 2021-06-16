@@ -75,3 +75,11 @@ body { overflow-x: hidden; }
 .card-project .card-img-top img { transition: ease all 0.3s; }
 .card-project:hover { border-color: #f1a517; }
 .card-project:hover .card-img-top img { transform: scale(1.05); }
+
+.col-siteplan img { position: absolute; transition: 0.3s ease all; }
+.col-siteplan .card { position: relative; width: 100%; }
+.col-siteplan .highlight-siteplan { position: static; }
+.col-siteplan .highlight-seaside { opacity: 0; }
+.col-siteplan .highlight-westside { opacity: 0; }
+.col-seaside:hover ~ .col-siteplan .highlight-seaside { opacity: 1; }
+.col-westside:hover ~ .col-siteplan .highlight-westside { opacity: 1; }
