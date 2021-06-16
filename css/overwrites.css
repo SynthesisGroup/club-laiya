@@ -70,3 +70,8 @@ body { overflow-x: hidden; }
 .home-banner-section .container .banner-heading .banner-bottom-text { margin-top: 10px; }
 
 .section-introduction { padding-top: 250px; }
+.card-project { border: 1px solid #FFFFFF; border-radius: 0; transition: ease all 0.3s; }
+.card-project .card-img-top { overflow: hidden; }
+.card-project .card-img-top img { transition: ease all 0.3s; }
+.card-project:hover { border-color: #f1a517; }
+.card-project:hover .card-img-top img { transform: scale(1.05); }
