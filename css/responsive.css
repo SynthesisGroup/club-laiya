@@ -26,6 +26,8 @@
 	.section-featured { text-align: center; margin-top: 0; left: 0; }
 	.section-featured .row { padding: 20px; }
 	.section-featured:before { display: block; }
+	
+	.beachside-properties-img img { height: 240px; }
 }
 
 /* 768 */
@@ -44,6 +46,8 @@
 	.section-featured { text-align: left; margin-top: -100px; left: 50%; }
 	.section-featured .row { padding: 30px; }
 	.section-featured:before { display: none; }
+	
+	.beachside-properties-img img { height: 480px; }
 }
 
 @media (max-width: 768px) {
