@@ -4,6 +4,7 @@ body { overflow-x: hidden; }
 .hidden { display: none !important; }
 .header-fixed { z-index: 999; }
 .navbar .navbar-menu .navbar-items a.btn-primary { padding-top: 15px !important; }
+.privilege-club-logo { max-width: 160px; margin: 0 auto; }
 
 /* Fonts */
 @font-face {
