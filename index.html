@@ -40,9 +40,8 @@
                             <img src="img/club-laiya-logo.png" alt="Club Laiya Logo" class="img-responsive">
                         </a>
                     </li>
-                    <li class="navbar-items navbar-items-active">
-                        <a href="index.html" class="active">Home</a>
-                    </li>
+                    <li class="navbar-items navbar-items-active"><a href="index.html" class="active">Home</a></li>
+					<li class="navbar-items"><a href="beachtowns.html">Beachtowns</a></li>
                     <li class="navbar-items nav-parent for-screen">
                         <a href="properties.html">Properties</a>
 						<ul class="nav-child">
@@ -76,7 +75,7 @@
                             </div>							
                         </div>
                     </section>
-					<section class="section-featured">	
+					<section class="section-featured hidden">	
 						<div class="row justify-content-center">
 							<div class="col-md-5">
 								<img src="img/projects/laiya-beach-club.jpg" class="img-fluid" alt="">
@@ -143,7 +142,7 @@
 									<p class="card-experience-text">sqm Lot Sizes</p>
 									<h5 class="card-counter-title mb-0"><strong>105</strong></h5>
 									<p class="card-experience-text">No. of Lots for Sale</p>
-                                    <a href="properties.html#anchor_seaside_district" class="card-link hidden">Explore</a>
+                                    <a href="properties.html#anchor_seaside_district" class="card-link">Explore</a>
                                 </div>
                             </div>
                         </div>
@@ -175,7 +174,8 @@
         </section>
 
 		<!-- -->
-        <section class="cta-section hidden" style="background-image: url('./img/properties/expensive-beachfront.png');">
+        <!--section class="cta-section" style="background-image: url('./img/properties/expensive-beachfront.png');"-->
+		<section class="shaded">
             <div class="container">
                 <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-1 justify-content-between align-items-center g-xl-5 g-lg-5 g-1">
                     <div class="col" data-aos="fade-up" data-aos-duration="500">
@@ -186,7 +186,7 @@
                             <div class="card-body">
                                 <h4 class="card-title">Beachtowns</h4>
                                 <p class="card-text">Landco Beachtowns are master-planned residential resort communities driven by a powerful vision to create a beachside living destination for the urban pioneers. A beachside concept whose time has come, and is taking shape in the prosperous enclaves of Batangas and Davao.</p>
-                                <a href="about-us.html" class="btn btn-primary mt-2">Explore</a>
+                                <a href="beachtowns.html" class="btn btn-primary mt-2">Explore</a>
                             </div>
                         </div>
                     </div>
@@ -322,8 +322,11 @@
                     </div>
                 </div>
 				<div class="row justify-content-center align-items-center">
-					<div class="col-md-10">
-						<img src="img/map/vicinity-map.jpg" alt="Vicinity Map" class="img-fluid" />
+					<div class="col-md-12">
+						<div class="map-area" style="background-image: url(img/map/vicinity-map.jpg);">
+							<a href="https://www.google.com/search?q=club%20laiya&rlz=1C1CHBF_enPH921PH921&oq=club+laiya&aqs=chrome.0.69i59j0i22i30l2j69i60l3.1192j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:1&tbm=lcl&sxsrf=ALeKk03AvqdDyHqXZhJ_BhDxU5i1A_vJOw:1624843501445&rflfq=1&num=10&rldimm=10764703496967774000&lqi=CgpjbHViIGxhaXlhSJvd8e2ss4CACFoYEAAYABgBIgpjbHViIGxhaXlhKgQIAhAAkgENbGVpc3VyZWNlbnRyZQ&phdesc=1IeAdE_StUw&ved=2ahUKEwiLiODdlbnxAhWMN5QKHbuTDYYQvS56BAgLEBE&rlst=f" target="_blank"></a>
+						</div>
+						<img src="img/map/vicinity-map.jpg" alt="Vicinity Map" class="img-fluid hidden" />
 					</div>
 				</div>
 			</div>
@@ -685,6 +688,10 @@
                                 <li class="footer-contacts">
                                     <ion-icon name="call-outline"></ion-icon> 
                                     <a href="tel:+63288365000">(+63 2) 8836-5000</a>
+                                </li>
+								<li class="footer-contacts">
+                                    <ion-icon name="call-outline"></ion-icon> 
+                                    <a href="tel:+63288365055">(+63 2) 8836-5055</a>
                                 </li>
                                 <li class="footer-contacts">
                                     <ion-icon name="mail-outline"></ion-icon> 

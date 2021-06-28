@@ -28,6 +28,21 @@
 	.section-featured:before { display: block; }
 	
 	.beachside-properties-img img { height: 240px; }
+	
+	.vicinity-map .map-area { height: 240px; background-size: cover; }
+	.vicinity-map .map-area a { height: 30px; width: 70px; bottom: 20px; right: 15px; }
+}
+
+/* 480  */
+@media (min-width: 480px) {
+	.vicinity-map .map-area { height: 320px; }
+	.vicinity-map .map-area a { height: 40px; width: 100px; bottom: 30px; right: 20px; }
+}
+
+/* 560  */
+@media (min-width: 560px) {
+	.vicinity-map .map-area { height: 400px; }
+	.vicinity-map .map-area a { height: 50px; width: 120px; bottom: 40px; right: 15px; }
 }
 
 /* 768 */
@@ -36,7 +51,7 @@
 	.for-screen { display: block; }
 
 	.widget-reservation { bottom: 20px; }
-	.section-introduction { margin-top: 0; padding-top: 250px; }
+	.section-introduction { margin-top: 0; /*padding-top: 250px;*/ }
 	
 	.home-banner-section { height: 100vh; }
 	.home-banner-section .container .banner-heading { margin-bottom: 75px; }
@@ -48,6 +63,26 @@
 	.section-featured:before { display: none; }
 	
 	.beachside-properties-img img { height: 480px; }
+	
+	.vicinity-map .map-area { height: 480px; }
+	.vicinity-map .map-area a { height: 60px; width: 140px; bottom: 50px; right: 70px; }
+}
+
+/* 960 */
+@media (min-width: 960px) {	
+	.vicinity-map .map-area { height: 560px; background-size: contain; }
+	.vicinity-map .map-area a { height: 60px; width: 150px; bottom: 80px; right: 40px; }
+}
+
+/* 1024 */
+@media (min-width: 1024px) {	
+	.vicinity-map .map-area { height: 700px; }
+	.vicinity-map .map-area a { height: 80px; width: 190px; bottom: 70px; right: 14%; }
+}
+
+/* 1260 */
+@media (min-width: 1260px) {	
+	.vicinity-map .map-area a { bottom: 70px; right: 19%; }
 }
 
 @media (max-width: 768px) {
