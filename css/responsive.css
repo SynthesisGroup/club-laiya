@@ -29,7 +29,7 @@
 	
 	.beachside-properties-img img { height: 240px; }
 	
-	.vicinity-map .map-area { height: 240px; background-size: cover; }
+	.vicinity-map .map-area { height: 240px; background-size: contain; }
 	.vicinity-map .map-area a { height: 30px; width: 70px; bottom: 20px; right: 15px; }
 }
 
