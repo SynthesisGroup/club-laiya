@@ -1,0 +1,118 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar-brand {
+        img {
+            width: 180px;
+        }
+
+        #img-fixed {
+            display: none;
+        }
+    }
+
+    .sidebar-toggler {
+        padding: 0;
+        display: none;
+        
+        ion-icon {
+            font-size: 45px;
+            color: var(--mr-color-white);
+        }
+    }
+
+    .navbar-menu {
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: initial;
+
+        .navbar-items {
+            margin-left: 33px;
+
+            .navbar-brand {
+                display: none;
+            }
+
+            a {
+                font-family: var(--mr-font-ostd);
+                font-size: 15px;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                color: var(--mr-color-white);
+
+                &:hover {
+                    color: var(--mr-color-primary-accent);
+                    transition: ease all 0.3s;
+                }
+            }
+
+            .active {
+                padding: 12px 0;
+                width: auto;
+                border-bottom: 3px solid var(--mr-color-primary-accent);
+                color: var(--mr-color-primary-accent);
+            }
+        }
+    }
+}
+
+.preload * {
+    transition: none !important;
+}
+
+.nav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--mr-color-primary);
+    visibility: hidden;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+.nav-open {
+    .nav-overlay {
+        visibility: visible;
+        opacity: 0.6;
+    }
+} 
+
+.header-fixed {
+    background-color: var(--mr-color-white);
+    box-shadow: var(--mr-box-shadow);
+    -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+    .navbar {
+        .sidebar-toggler {
+            ion-icon {
+                color: var(--mr-color-dark);
+            }
+        }
+        .navbar-menu {
+            .navbar-items {
+                a {
+                    color: var(--mr-color-dark);
+
+                    &:hover {
+                        color: var(--mr-color-primary);
+                        transition: ease all 0.3s;
+                    }
+                }
+    
+                .active {
+                    padding: 12px 0;
+                    width: auto;
+                    border-bottom: 3px solid var(--mr-color-primary);
+                    color: var(--mr-color-primary);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.card-counter {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+
+    .card-counter-header {
+        font-size: 60px;
+        margin-bottom: 26px;
+    }
+
+    .card-counter-title {
+        font-family: var(--mr-font-ostd);
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+}

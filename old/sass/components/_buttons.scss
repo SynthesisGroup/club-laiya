@@ -1,0 +1,30 @@
+// Button Primary
+.btn {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    padding: 12px 32px 12px 32px;
+    border-radius: 1px;
+    width: auto;
+    display: inline-flex;
+    align-items: center;
+
+    &:focus, &:active {
+        outline: none;
+        box-shadow: none;
+        background-color: var(--mr-color-secondary);
+    }
+
+    &:hover {
+        background-color: var(--mr-color-secondary);
+    }
+
+    ion-icon {
+        font-size: 18px;
+    }
+}
+
+.btn-primary {
+    background-color: var(--mr-color-primary);
+    border: none;
+}

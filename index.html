@@ -33,7 +33,11 @@
                     <img src="img/club-laiya-logo-white.png" alt="Club Laiya Logo" class="img-responsive" id="img-default">
                     <img src="img/club-laiya-logo.png" alt="Club Laiya Logo" class="img-responsive" id="img-fixed">
                 </a>
-                <a class="sidebar-toggler"><ion-icon name="menu-outline"></ion-icon></a>
+                <a class="sidebar-toggler">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+						<path d="M442 114H6a6 6 0 0 1-6-6V84a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6zm0 160H6a6 6 0 0 1-6-6v-24a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6zm0 160H6a6 6 0 0 1-6-6v-24a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6z"/>
+					</svg>
+				</a>
                 <ul class="navbar-menu">
                     <li class="navbar-items">
                         <a class="navbar-brand" href="index.html">
@@ -67,12 +71,14 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <section class="home-banner-section" data-aos="fade-up" data-aos-duration="500">
-                        <div class="container">
-                            <div class="banner-heading">
-                                <span class="banner-upper-text">Club Laiya</span>
-                                <h1 class="banner-title">Lasting Memories, Breathtaking Views</h1>
-                                <p class="banner-bottom-text">Truly, it's a playground for the distinguished few and a frontier commanded by you.</p>
-                            </div>							
+                        <div class="container" style="height: 100%;">
+							<div class="row justify-content-center align-content-end">
+								<div class="col-md-6 banner-heading">
+									<span class="banner-upper-text">Club Laiya</span>
+									<h1 class="banner-title">Lasting Memories, Breathtaking Views</h1>
+									<p class="banner-bottom-text">Truly, it's a playground for the distinguished few and a frontier commanded by you.</p>
+								</div>	
+							</div>				
                         </div>
                     </section>
 					<section class="section-featured hidden">	
@@ -129,7 +135,7 @@
                         <div class="card card-project p-0">
 							<div class="card-img-top">
 								<a href="properties.html#anchor_seaside_district">
-									<img src="img/gallery/gallery-img-12.png" class="card-img-top w-100 object-fit-cover" height="240" alt="">
+									<img src="img/gallery/gallery-img-12.jpg" class="card-img-top w-100 object-fit-cover" height="240" alt="">
 								</a>
 							</div>
                             <div class="card-body">
@@ -151,7 +157,7 @@
                         <div class="card card-project p-0">
 							<div class="card-img-top">
 								<a href="upper-westside-district.html">
-									<img src="img/gallery/gallery-img-13.png" class="card-img-top w-100 object-fit-cover" height="240" alt="" style="filter: grayscale(1);">
+									<img src="img/gallery/gallery-img-13.jpg" class="card-img-top w-100 object-fit-cover" height="240" alt="" style="filter: grayscale(1);">
 								</a>
 							</div>
                             <div class="card-body">
@@ -163,6 +169,10 @@
                         </div>
                     </div>
                     <div class="col-md-5 col-siteplan" data-aos="fade-up" data-aos-duration="1000">
+						<video height="240" style="width: 100%; background-color: #000000;" controls>
+							<source src="vid/Club_Laiya_Animation.webm" type="video/webm">
+							Your browser does not support the video tag.
+						</video>
                         <div class="card p-0">
 							<img src="img/vicinity-maps/SDP-seaside-portrait.jpg" class="img-fluid highlight-seaside" alt="">
 							<img src="img/vicinity-maps/SDP-westside-portrait.jpg" class="img-fluid highlight-westside" alt="">
@@ -174,110 +184,42 @@
         </section>
 
 		<!-- -->
-        <!--section class="cta-section" style="background-image: url('./img/properties/expensive-beachfront.png');"-->
-		<section class="shaded hidden">
-            <div class="container">
-                <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-1 justify-content-between align-items-center g-xl-5 g-lg-5 g-1">
-                    <div class="col" data-aos="fade-up" data-aos-duration="500">
-                        <img src="img/projects/laiya-beach-club.jpg" class="img-responsive w-100 pr" alt="">
-                    </div>
-                    <div class="col" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="card card-glass">
-                            <div class="card-body">
-                                <h4 class="card-title">Beachtowns</h4>
-                                <p class="card-text">Landco Beachtowns are master-planned residential resort communities driven by a powerful vision to create a beachside living destination for the urban pioneers. A beachside concept whose time has come, and is taking shape in the prosperous enclaves of Batangas and Davao.</p>
-                                <a href="beachtowns.html" class="btn btn-primary mt-2">Explore</a>
-                            </div>
-                        </div>
-                    </div>
+        <section class="cta-section section-about" style="background-image: url('./img/properties/kava-aiya.jpg');">
+            <div class="container for-screen">
+				<div class="row justify-content-center align-content-end">
+					<div class="col-md-12" data-aos="fade-up">
+						<div class="card card-glass">
+							<div class="card-body">
+								<h4 class="card-title mb-3">About Club Laiya</h4>
+								<p class="card-text">At Club Laiya, yours is the edge to live your life to the fullest.</p>
+								<p class="card-text">The beachfront and all of its surrounding amenities calls upon your active spirit to experience exhilarating excitement. Activities found in Club Laiya are designed to give property owners nothing short of privilege. Truly, it’s a playground distinguished few and a frontier commanded by you.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col hidden" data-aos="fade-up">
+						<div class="card card-glass">
+							<div class="card-body">
+								<img src="img/club-laiya-logo.png" class="img-responsive w-100" alt="">
+							</div>
+						</div>
+					</div>
                 </div>
             </div>
         </section>
-
+		
 		<!-- -->
-        <section class="hidden">
+        <section class="for-mobile p-0">
             <div class="container">
-                <div class="row justify-content-center text-center">
-                    <div class="col-xl-10 col-md-10">
-                        <div class="section-headers" data-aos="fade-up">
-                            <h4 class="section-title">Club Laiya</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-2 row-cols-1 justify-content-center g-5 mt-2">
-                    <div class="col" data-aos="zoom-in" data-aos-duration="500">
-                        <div class="card-counter">
-                            <h4 class="card-counter-header">10.6</h4>
-                            <h5 class="card-counter-title">ha. Land Area</h5>
-                        </div>
-                    </div>
-                    <div class="col" data-aos="zoom-in" data-aos-duration="1500">
-                        <div class="card-counter">
-							<h5 class="card-counter-title">Seaside District</h5>
-                            <h4 class="card-counter-header">300 to 3,150</h4>
-                            <h5 class="card-counter-title">sqm Lot Sizes</h5>
-                        </div>
-                    </div>
-                    <div class="col" data-aos="zoom-in" data-aos-duration="2000">
-                        <div class="card-counter">
-                            <h4 class="card-counter-header">105</h4>
-                            <h5 class="card-counter-title">No. of Lots for Sale</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center mt-4 g-5">
-                    <div class="col-md-5" data-aos="fade-up" data-aos-duration="500">
-                        <div class="card p-0">
-                            <img src="img/projects/cocoons-resort-hotel.jpg" class="card-img-top w-100 object-fit-cover" height="350" alt="">
-                            <div class="card-body">
-                                <div class="text-center mt-3">
-                                    <h4 class="card-experience-title">A New Resort Adventure</h4>
-                                    <p class="card-experience-text">Living up to its promise of urban luxury, the hotels boast state-of-the-art amenities that cater to your rich and prestigious lifestyle.</p>
-                                    <a href="" class="card-link">Explore</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-5" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="card p-0">
-                            <img src="img/projects/laiya-beach-club.jpg" class="card-img-top w-100 object-fit-cover" height="350" alt="">
-                            <div class="card-body">
-                                <div class="text-center mt-3">
-                                    <h4 class="card-experience-title">Everyday Vacation Feel</h4>
-                                    <p class="card-experience-text">Wake up to the calming sound of the ocean waves and breathe in that fresh sea breeze. Indulge in an early morning swim or spend time with family and friends on the pristine sands of Laiya beaches.</p>
-                                    <a href="attractions.html" class="card-link">Explore</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-		<!-- -->
-        <section class="cta-section" style="background-image: url('./img/properties/kava-aiya.jpg');">
-            <div class="container">
-                <div class="row row-cols-1 g-5">
-                    <div class="col">
-                        <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 row-cols-1 g-5 align-items-center flex-reverse">
-                            <div class="col" data-aos="fade-up">
-                                <div class="card card-glass">
-                                    <div class="card-body">
-                                        <h4 class="card-title">About Club Laiya</h4>
-                                        <p class="card-text">At Club Laiya, yours is the edge to live your life to the fullest.</p>
-                                        <p class="card-text">The beachfront and all of its surrounding amenities calls upon your active spirit to experience exhilarating excitement. Activities found in Club Laiya are designed to give property owners nothing short of privilege. Truly, it’s a playground distinguished few and a frontier commanded by you.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col" data-aos="fade-up">
-                                <div class="card card-glass">
-                                    <div class="card-body">
-                                        <img src="img/club-laiya-logo.png" class="img-responsive w-100" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+				<div class="row justify-content-center align-content-end">
+					<div class="col-md-12" data-aos="fade-up">
+						<div class="card card-glass">
+							<div class="card-body">
+								<h4 class="card-title mb-3">About Club Laiya</h4>
+								<p class="card-text">At Club Laiya, yours is the edge to live your life to the fullest.</p>
+								<p class="card-text">The beachfront and all of its surrounding amenities calls upon your active spirit to experience exhilarating excitement. Activities found in Club Laiya are designed to give property owners nothing short of privilege. Truly, it’s a playground distinguished few and a frontier commanded by you.</p>
+							</div>
+						</div>
+					</div>
                 </div>
             </div>
         </section>
@@ -302,7 +244,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/></svg>
                                 </div>
                             </a>
-							<img src="img/map/philippine-map.png" class="img-fluid philippine-map" width="60%" alt="" />
+							<img src="img/map/philippine-map.jpg" class="img-fluid philippine-map" width="60%" alt="" />
 						</div>
 					</div>
 				</div>
@@ -361,7 +303,7 @@
                     <div class="col-xl-9 col-md-10">
                         <div class="section-headers" data-aos="fade-up">
                             <h4 class="section-title">Experience Club Laiya</h4>
-                            <p class="section-bottom-text">Living in paradise is meant to be breathtaking. Club Laiya’s open space naturally allows you to breathe fresh air while you explore exciting activities and tourist attractions</p>
+                            <p class="section-bottom-text">Living in paradise is meant to be breathtaking. Club Laiya’s open space naturally allows you to breathe fresh air while you explore exciting activities and tourist attractions.</p>
                         </div>
                     </div>
                 </div>
@@ -392,12 +334,11 @@
                     </div>
                     <div class="col" data-aos="fade-up" data-aos-duration="1500">
                         <div class="card p-0">
-                            <img src="img/projects/luxury-excitement.png" class="card-img-top w-100 object-fit-cover" height="350" alt="">
+                            <img src="img/projects/luxury-excitement.jpg" class="card-img-top w-100 object-fit-cover" height="350" alt="">
                             <div class="card-body">
                                 <div class="text-center mt-3">
                                     <h4 class="card-experience-title">A Life of Luxury &amp; Excitement</h4>
-                                    <p class="card-experience-text">At Club Laiya, yours is the edge to live your life to the fullest. Truly, it’s a playground of the distinguished few and a frontier commanded by you 
-                                        </p>
+                                    <p class="card-experience-text">At Club Laiya, yours is the edge to live your life to the fullest. Truly, it’s a playground of the distinguished few and a frontier commanded by you.</p>
                                     <a href="properties.html" class="card-link">Explore</a>
                                 </div>
                             </div>
@@ -421,7 +362,7 @@
                 <div class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-2 row-cols-1 mt-4 g-5">
                     <div class="col" data-aos="fade-up" data-aos-duration="500">
                         <div class="card p-0">
-                            <img src="img/properties/captain-barbozza-2.png" class="card-img-top w-100 object-fit-cover" height="300" alt="">
+                            <img src="img/properties/captain-barbozza-2.jpg" class="card-img-top w-100 object-fit-cover" height="300" alt="">
                             <div class="card-body">
                                 <div class="text-center mt-3">
                                     <h4 class="card-experience-title">Captain Barbozza</h4>
@@ -477,40 +418,6 @@
         </section>
 
 		<!-- -->
-        <section class="bg-light hidden">
-            <div class="container">
-                <div class="row justify-content-center text-center">
-                    <div class="col-xl-10 col-md-10">
-                        <div class="section-headers" data-aos="fade-up">
-                            <div class="section-upper-text">Testimonials</div>
-                            <h4 class="section-title">What our guests have to say</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center g-4 mt-5">
-                    <div class="col-xl-4 col-md-4" data-aos="fade-up" data-aos-duration="500">
-                        <img src="img/testimonials/testimonial-thumbnail-1.png" class="img-responsive w-100" style="height: 300px; object-fit: cover;" alt="">
-                    </div>
-                    <div class="col-xl-8 col-md-8" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="testimonial-content">
-                            <img src="img/icons/quote.png" class="testimonial-quotation" alt="">
-                            <h4 class="testimonial-text-ratings">Thank you for sharing this beautiful property with us! Absolutely perfect for a family of 3.</h4>
-                            <div class="testimonial-stars">
-                                <ion-icon name="star"></ion-icon>
-                                <ion-icon name="star"></ion-icon>
-                                <ion-icon name="star"></ion-icon>
-                                <ion-icon name="star"></ion-icon>
-                                <ion-icon name="star"></ion-icon>
-                            </div>
-                            <p class="testimonial-message">Visiting this place has been very memorable. First time to stay in a place like this. Our whole family had lots of fun things to do and memories were made.</p>
-                            <span class="testimonial-author"><ion-icon name="remove"></ion-icon>Del Rosario Family</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-		<!-- -->
         <section class="hide">
             <div class="container">
                 <div class="row justify-content-center text-center">
@@ -523,7 +430,7 @@
                 <div class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-2 row-cols-1 g-5 mt-4">
                     <div class="col" data-aos="fade-up" data-aos-duration="500">
                         <div class="card p-0">
-                            <img src="img/news/news-thumbnail-1.png" class="card-img-top" alt="...">
+                            <img src="img/news/news-thumbnail-1.jpg" class="card-img-top" alt="...">
                             <div class="card-body card-news-body">
                                 <h5 class="card-news-title">Club Laiya reinstatement costs assesment (BRCA’s)</h5>
                                 <p class="card-news-text">MVPI, the country’s largest developer of integrated urban townships and the biggest landlord of office spaces, registered a net income of P13.7-billion during the...</p>
@@ -533,7 +440,7 @@
                     </div>
                     <div class="col" data-aos="fade-up" data-aos-duration="1000">
                         <div class="card p-0">
-                            <img src="img/news/news-thumbnail-2.png" class="card-img-top" alt="...">
+                            <img src="img/news/news-thumbnail-2.jpg" class="card-img-top" alt="...">
                             <div class="card-body card-news-body">
                                 <h5 class="card-news-title">Double digit growth in core businesses boost Club Laiya 9-mo profits anew</h5>
                                 <p class="card-news-text">MVPI, the country’s pioneer and largest developer of townships, grew its net income by 18% to P8.9-billion in the first half of 2019 from P7.5-billion during the same period...</p>
@@ -543,7 +450,7 @@
                     </div>
                     <div class="col" data-aos="fade-up" data-aos-duration="1500">
                         <div class="card p-0">
-                            <img src="img/news/news-thumbnail-3.png" class="card-img-top" alt="...">
+                            <img src="img/news/news-thumbnail-3.jpg" class="card-img-top" alt="...">
                             <div class="card-body card-news-body">
                                 <h5 class="card-news-title">Club Laiya launches condo near Laiya, Batangas area</h5>
                                 <p class="card-news-text">Property giant MVPI is launching a new residential condominium developments in the Batangas, particularly within the San Lazaro Tourism and Business Park ...</p>
@@ -578,58 +485,58 @@
                         <div class="swiper-container swiper-gallery">
                             <div class="swiper-wrapper">
 								<div class="swiper-slide">
-                                    <a href="img/gallery/gallery-img-10.png" data-fancybox="gallery">
-                                        <img src="img/gallery/gallery-img-10.png" class="img-responsive w-100" alt="">
+                                    <a href="img/gallery/gallery-img-10.jpg" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-10.jpg" class="img-responsive w-100" alt="">
                                     </a>
                                 </div>
 								<div class="swiper-slide">
-                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
-                                        <img src="img/gallery/gallery-img-11.png" class="img-responsive w-100" alt="">
+                                    <a href="img/gallery/gallery-img-11.jpg" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-11.jpg" class="img-responsive w-100" alt="">
                                     </a>
                                 </div>
 								<div class="swiper-slide">
-                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
-                                        <img src="img/gallery/gallery-img-12.png" class="img-responsive w-100" alt="">
+                                    <a href="img/gallery/gallery-img-12.jpg" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-12.jpg" class="img-responsive w-100" alt="">
                                     </a>
                                 </div>
 								<div class="swiper-slide">
-                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
-                                        <img src="img/gallery/gallery-img-13.png" class="img-responsive w-100" alt="">
+                                    <a href="img/gallery/gallery-img-13.jpg" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-13.jpg" class="img-responsive w-100" alt="">
                                     </a>
                                 </div>
 								<div class="swiper-slide">
-                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
-                                        <img src="img/gallery/gallery-img-14.png" class="img-responsive w-100" alt="">
+                                    <a href="img/gallery/gallery-img-14.jpg" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-14.jpg" class="img-responsive w-100" alt="">
                                     </a>
                                 </div>
 								<div class="swiper-slide">
-                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
-                                        <img src="img/gallery/gallery-img-15.png" class="img-responsive w-100" alt="">
+                                    <a href="img/gallery/gallery-img-15.jpg" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-15.jpg" class="img-responsive w-100" alt="">
                                     </a>
                                 </div>
 								<div class="swiper-slide">
-                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
-                                        <img src="img/gallery/gallery-img-16.png" class="img-responsive w-100" alt="">
+                                    <a href="img/gallery/gallery-img-16.jpg" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-16.jpg" class="img-responsive w-100" alt="">
                                     </a>
                                 </div>
 								<div class="swiper-slide">
-                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
-                                        <img src="img/gallery/gallery-img-17.png" class="img-responsive w-100" alt="">
+                                    <a href="img/gallery/gallery-img-17.jpg" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-17.jpg" class="img-responsive w-100" alt="">
                                     </a>
                                 </div>
 								<div class="swiper-slide">
-                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
-                                        <img src="img/gallery/gallery-img-18.png" class="img-responsive w-100" alt="">
+                                    <a href="img/gallery/gallery-img-18.jpg" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-18.jpg" class="img-responsive w-100" alt="">
                                     </a>
                                 </div>
 								<div class="swiper-slide">
-                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
-                                        <img src="img/gallery/gallery-img-19.png" class="img-responsive w-100" alt="">
+                                    <a href="img/gallery/gallery-img-19.jpg" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-19.jpg" class="img-responsive w-100" alt="">
                                     </a>
                                 </div>
 								<div class="swiper-slide">
-                                    <a href="img/gallery/gallery-img-11.png" data-fancybox="gallery">
-                                        <img src="img/gallery/gallery-img-20.png" class="img-responsive w-100" alt="">
+                                    <a href="img/gallery/gallery-img-20.jpg" data-fancybox="gallery">
+                                        <img src="img/gallery/gallery-img-20.jpg" class="img-responsive w-100" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -711,7 +618,6 @@
     <!-- End: Main Footer -->
 
     <!-- Scripts -->
-    <script type="text/javascript" src="js/scripts.js" defer></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
@@ -720,6 +626,7 @@
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/cookieconsent.min.js" defer></script>
 	<script src="js/slideshow.min.js"></script>
+    <script src="js/scripts.js" defer></script>
     <script>
 		//
 		window.addEventListener("load",function(){
@@ -738,7 +645,7 @@
 				},
 				"position":"bottom",
 				"content":{
-					"href":"https://synthesisgroup.github.io/club-laiya/privacy-policy.html"
+					"href":"/privacy-policy.html"
 				}
 			})
 		});

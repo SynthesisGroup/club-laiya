@@ -1,0 +1,61 @@
+.card, .card-plain {
+    border: none;
+    padding: 30px;
+
+    .experience-img-circle {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .card-body {
+        .card-title {
+            font-size: 35px;
+            line-height: 1.2;
+            margin-bottom: 30px;
+        }
+
+        .card-list {
+            list-style: circle;
+            padding: 0 18px;
+        }
+
+        .card-news-title {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .card-news-text {
+            font-size: 14px;
+        }
+
+        .card-experience-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .card-experience-text {
+            font-size: 15px;
+        }
+
+        .card-link {
+            font-size: 13px;
+            font-family: var(--mr-font-karla-bold);
+            color: var(--mr-color-secondary);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+        }
+    }
+
+    // News Card Body
+    .card-news-body {
+        padding: 25px 10px;
+    }
+}
+
+.card-glass {
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: saturate(180%) blur(15px);
+    -webkit-backdrop-filter: saturate(180%) blur(15px);
+}

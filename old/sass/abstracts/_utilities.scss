@@ -1,0 +1,74 @@
+// List Style
+.ls-disc {
+    list-style: disc;
+}
+
+// Cookie Consent
+.wpcc-container {
+    .wpcc-message {
+        color: var(--mr-color-white);
+    }
+}
+
+// Background
+.bg-primary {
+    background-color: var(--mr-color-primary) !important;
+}
+
+.bg-circle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+
+    img {
+        width: 20px;
+    }
+}
+
+// Alignment
+.justify-items-center {
+    justify-items: center;
+}
+
+// Objects Fit
+.object-fit-cover {
+    object-fit: cover;
+}
+
+// Positions
+.pr {
+    position: relative;
+}
+
+// Text Transform
+.text-transform-inherit {
+    text-transform: inherit;
+}
+
+.beachtowns-list {
+    padding: 0;
+}
+
+.beachtowns-list > li {
+    display: flex;
+    align-items: center;
+}
+
+.beachtowns-list > li > ion-icon {
+    font-size: 35px;
+    margin-right: 15px;
+}
+
+.beachtowns-list > li > span {
+    font-size: 18px;
+}
+
+.card-upper-text {
+    font-size: 18px;
+    font-weight: var(--mr-font-karla-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}

@@ -1,0 +1,20 @@
+.modal {
+    .modal-dialog {
+        @extend .scale-in-center;
+
+        .modal-content {
+            border: none;
+            border-radius: 6px;
+        }
+    }
+}
+
+.modal-backdrop {
+    background: rgba(0,0,0,0.2);
+    backdrop-filter: saturate(180%) blur(15px);
+    -webkit-backdrop-filter: saturate(180%) blur(15px);
+}
+
+.modal-backdrop.show {
+    opacity: unset;
+}

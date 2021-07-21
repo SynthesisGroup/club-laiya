@@ -1,0 +1,41 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    
+    .swiper-pagination {
+        position: relative;
+        margin-top: 30px;
+    
+        .swiper-pagination-bullet {
+            margin: 3px;
+        }
+    }
+
+    .swiper-button-next {
+        background-color: var(--mr-color-primary);
+        color: var(--mr-color-white);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+
+        &::after {
+            font-size: 16px;
+        }
+    }
+
+    .swiper-button-prev {
+        background-color: var(--mr-color-primary);
+        color: var(--mr-color-white);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+
+        &::after {
+            font-size: 16px;
+        }
+    }
+}
+
+.swiper-wrapper {
+    box-sizing: inherit;
+}
